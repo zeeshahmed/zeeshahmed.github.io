@@ -1,0 +1,64 @@
+---
+title: "Publications"
+description-meta: "Selected publications by Zeeshan Ahmed, with links to the complete record on ORCID, Google Scholar, INSPIRE-HEP and NASA ADS."
+---
+
+Ten papers that give a reasonable picture of the work. The complete record is maintained
+elsewhere and is more reliable than any list kept by hand.
+
+::: {.linkrow}
+[ORCID](https://orcid.org/0000-0002-9957-448X) [·]{.sep}
+[Google Scholar](https://scholar.google.com/citations?user=hXDuulsAAAAJ&hl=en) [·]{.sep}
+[INSPIRE-HEP](https://inspirehep.net/authors/1054828) [·]{.sep}
+[NASA ADS](https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-9957-448X)
+:::
+
+## Selected
+
+::: {.pubs}
+1. Qu, F. J. et al.
+   [*Unified and Consistent Structure Growth Measurements from Joint ACT, SPT, and Planck CMB
+   Lensing.*]{.title}
+   [Physical Review Letters **136**, 021001 (2026). [doi:10.1103/k5yr-3h6d](https://doi.org/10.1103/k5yr-3h6d)]{.venue}
+
+2. BICEP/Keck Collaboration.
+   [*Improved Constraints on Primordial Gravitational Waves using Planck, WMAP, and BICEP/Keck
+   Observations through the 2018 Observing Season.*]{.title}
+   [Physical Review Letters **127**, 151301 (2021). [doi:10.1103/PhysRevLett.127.151301](https://doi.org/10.1103/PhysRevLett.127.151301)]{.venue}
+
+3. BICEP/Keck Collaboration.
+   [*BICEP/Keck XV: The BICEP3 Cosmic Microwave Background Polarimeter and the First
+   Three-year Data Set.*]{.title}
+   [The Astrophysical Journal **927**, 77 (2022). [doi:10.3847/1538-4357/ac4886](https://doi.org/10.3847/1538-4357/ac4886)]{.venue}
+
+4. BICEP/Keck and SPTpol Collaborations.
+   [*A demonstration of improved constraints on primordial gravitational waves with
+   delensing.*]{.title}
+   [Physical Review D **103**, 022004 (2021). [doi:10.1103/PhysRevD.103.022004](https://doi.org/10.1103/PhysRevD.103.022004)]{.venue}
+
+5. Yu, C. et al.
+   [*SLAC microresonator RF (SMuRF) electronics: A tone-tracking readout system for
+   superconducting microwave resonator arrays.*]{.title}
+   [Review of Scientific Instruments **94**, 014712 (2023). [doi:10.1063/5.0125084](https://doi.org/10.1063/5.0125084)]{.venue}
+
+6. Kernasovskiy, S. A. et al.
+   [*SLAC Microresonator Radio Frequency (SMuRF) Electronics for Read Out of
+   Frequency-Division-Multiplexed Cryogenic Sensors.*]{.title}
+   [Journal of Low Temperature Physics **193**, 570 (2018). [doi:10.1007/s10909-018-1981-5](https://doi.org/10.1007/s10909-018-1981-5)]{.venue}
+
+7. McCarrick, H. et al.
+   [*The Simons Observatory Microwave SQUID Multiplexing Detector Module Design.*]{.title}
+   [The Astrophysical Journal **922**, 38 (2021). [doi:10.3847/1538-4357/ac2232](https://doi.org/10.3847/1538-4357/ac2232)]{.venue}
+
+8. Groh, J. C. et al.
+   [*Demonstration of a 1820 channel multiplexer for transition-edge sensor bolometers.*]{.title}
+   [Applied Physics Letters **127**, 152602 (2025). [doi:10.1063/5.0290914](https://doi.org/10.1063/5.0290914)]{.venue}
+
+9. Bhandarkar, T. et al.
+   [*Simons Observatory: Characterization of the Large Aperture Telescope Receiver.*]{.title}
+   [The Astrophysical Journal Supplement Series **279**, 34 (2025). [doi:10.3847/1538-4365/ade0bd](https://doi.org/10.3847/1538-4365/ade0bd)]{.venue}
+
+10. Ahmed, Z. et al. (CDMS Collaboration).
+    [*Dark Matter Search Results from the CDMS II Experiment.*]{.title}
+    [Science **327**, 1619 (2010). [doi:10.1126/science.1186112](https://doi.org/10.1126/science.1186112)]{.venue}
+:::

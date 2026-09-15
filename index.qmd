@@ -1,0 +1,88 @@
+---
+title: "Zeeshan Ahmed"
+pagetitle: "Zeeshan Ahmed"
+description-meta: "Observational cosmologist and experimental physicist at SLAC and Stanford, working on superconducting detectors, their readout, and the cosmic microwave background."
+---
+
+::: {.hero-role}
+Associate Professor of Particle Physics and Astrophysics, SLAC National Accelerator
+Laboratory and Stanford University
+:::
+
+::: {.portrait-row}
+![](images/portrait.jpg){alt="Zeeshan Ahmed"}
+
+::: {.standfirst}
+I build ultra-low-noise superconducting detectors and the readout systems that make them
+usable at scale, and I use them to ask what happened in the first instant of the Universe
+and how cosmic structure grew afterward.
+:::
+:::
+
+::: {.s21}
+![](images/s21.svg){alt="A microwave transmission measurement: a flat baseline interrupted by about forty narrow resonance dips, one for each readout channel."}
+:::
+
+::: {.caption}
+Each dip is one channel. Reading thousands of them on a single coaxial line is what makes
+large detector arrays possible.
+:::
+
+I lead the CMB department in SLAC's Fundamental Physics Directorate, lead readout operations
+for the Simons Observatory, and lead the photon sensors project in Q-NEXT's Sensors for
+Entanglement thrust.
+
+::: {.linkrow}
+[CV](cv.pdf) [·]{.sep}
+[ORCID](https://orcid.org/0000-0002-9957-448X) [·]{.sep}
+[Google Scholar](https://scholar.google.com/citations?user=hXDuulsAAAAJ&hl=en) [·]{.sep}
+[INSPIRE-HEP](https://inspirehep.net/authors/1054828)
+:::
+
+::: {.todo}
+**TODO.** Drop the current `cv.pdf` into the repository root. The CV link above is live and
+will 404 until that file is there.
+:::
+
+## What I work on
+
+::: {.threads}
+
+::: {.thread}
+### [The first instant](research.qmd#the-first-instant)
+Inflation predicts a background of primordial gravitational waves. The South Pole
+Observatory, combining BICEP Array and SPT-3G+, is searching for their imprint on
+CMB polarization at σ(r) = 0.001.
+:::
+
+::: {.thread}
+### [How structure grew](research.qmd#how-structure-grew)
+Gravitational lensing of the CMB maps all the matter between us and the last scattering
+surface, whether or not it emits light. This is the Simons Observatory's territory.
+:::
+
+::: {.thread}
+### [Sensing at the quantum limit](research.qmd#sensing-at-the-quantum-limit)
+Microwave SQUID multiplexing and the SMuRF electronics read out 98,000 superconducting
+sensors at once. The same capability now serves quantum networking and dark matter
+searches.
+:::
+
+:::
+
+## Recent
+
+::: {.dated}
+- [August 2026]{.when} [The South Pole Observatory: A Combined Inflation Search Program
+  Targeting σ(r) ∼ 0.001 [New Frontiers in Cosmology, A Coruña]{.where}]{.what}
+- [July 2026]{.when} [From CMB to Qubits: Shared Frontiers in Superconducting Sensing
+  [CECI Workshop on Detector Science, UC Riverside]{.where}]{.what}
+- [May 2026]{.when} [SMuRF and SPECTRA: Scalable Warm Electronics for Superconducting Dark
+  Matter Sensors [Superconducting Technologies for Dark Matter 2026, Sapienza University of
+  Rome]{.where}]{.what}
+- [March 2026]{.when} [Updates from the BICEP inflation search program
+  [Rencontres de Moriond, Cosmology]{.where}]{.what}
+- [September 2025]{.when} [SLAC's Detector Microfabrication Facility completed construction
+  and entered operations [Devices for cosmology and quantum sensing are now fabricated
+  there]{.where}]{.what}
+:::

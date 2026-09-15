@@ -1,0 +1,490 @@
+/*-- scss:defaults --*/
+
+// Palette: cool and cryogenic.
+$paper:       #f7f8fa;
+$ink:         #16202b;
+$muted:       #5b6b7b;
+$rule:        #dde3e9;
+$accent:      #0e7c86;
+$accent-soft: #e4f0f1;
+
+$font-family-sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$font-family-serif: "Spectral", Georgia, "Times New Roman", serif;
+$headings-font-family: $font-family-serif;
+
+$body-bg: $paper;
+$body-color: $ink;
+$link-color: $accent;
+$link-hover-color: $accent;
+
+$font-size-root: 17px;
+$line-height-base: 1.62;
+$headings-font-weight: 500;
+
+$navbar-bg: $paper;
+$navbar-fg: $ink;
+$navbar-hl: $accent;
+$footer-bg: $paper;
+$footer-fg: $muted;
+
+$border-color: $rule;
+$table-border-color: $rule;
+
+/*-- scss:rules --*/
+
+:root {
+  --zx-paper: #{$paper};
+  --zx-ink: #{$ink};
+  --zx-muted: #{$muted};
+  --zx-rule: #{$rule};
+  --zx-accent: #{$accent};
+  --zx-accent-soft: #{$accent-soft};
+  --zx-measure: 38rem;
+}
+
+/* ---------- Base ---------- */
+
+body {
+  font-family: $font-family-sans-serif;
+  font-feature-settings: "kern" 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+main.content,
+#quarto-content > * {
+  padding-top: 0;
+}
+
+/* Single column, left aligned, held to a readable measure. */
+main.content {
+  max-width: var(--zx-measure);
+  margin-left: 0;
+  margin-right: auto;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 992px) {
+  #quarto-content.page-columns {
+    display: block;
+  }
+  main.content {
+    margin-left: 0;
+  }
+}
+
+p, li {
+  max-width: var(--zx-measure);
+}
+
+h1, h2, h3, h4 {
+  font-family: $font-family-serif;
+  letter-spacing: -0.005em;
+  color: var(--zx-ink);
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: 2.45rem;
+  line-height: 1.16;
+  font-weight: 500;
+  margin-bottom: 0.35rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 3.1rem;
+  margin-bottom: 0.85rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--zx-rule);
+}
+
+h2:first-of-type {
+  margin-top: 2.6rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2.1rem;
+  margin-bottom: 0.6rem;
+}
+
+h4 {
+  font-size: 1.02rem;
+  font-weight: 600;
+  font-family: $font-family-sans-serif;
+  margin-top: 1.6rem;
+  margin-bottom: 0.35rem;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(14, 124, 134, 0.35);
+}
+
+a:hover {
+  border-bottom-color: var(--zx-accent);
+}
+
+/* Visible keyboard focus in the accent colour. */
+a:focus-visible,
+button:focus-visible,
+.navbar a:focus-visible {
+  outline: 2px solid var(--zx-accent);
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
+strong { font-weight: 600; }
+
+/* ---------- Navbar ---------- */
+
+.navbar {
+  border-bottom: 1px solid var(--zx-rule);
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+  box-shadow: none;
+}
+
+.navbar .navbar-brand {
+  font-family: $font-family-serif;
+  font-size: 1.06rem;
+  font-weight: 500;
+  border-bottom: none;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 0.93rem;
+  color: var(--zx-muted) !important;
+  border-bottom: none;
+  padding-left: 0.72rem;
+  padding-right: 0.72rem;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+  color: var(--zx-ink) !important;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  box-shadow: inset 0 -2px 0 var(--zx-accent);
+}
+
+/* ---------- Hero ---------- */
+
+.hero-role {
+  font-size: 1.02rem;
+  color: var(--zx-muted);
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.standfirst {
+  font-family: $font-family-serif;
+  font-size: 1.32rem;
+  line-height: 1.5;
+  color: var(--zx-ink);
+  max-width: 34rem;
+  margin-bottom: 2.3rem;
+}
+
+.s21 {
+  margin: 2.4rem 0 0.75rem;
+  max-width: var(--zx-measure);
+}
+
+.s21 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.caption,
+.figure-caption,
+figcaption {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--zx-muted);
+  max-width: 34rem;
+  margin-top: 0.55rem;
+}
+
+/* ---------- Portrait ---------- */
+
+.portrait-row {
+  display: flex;
+  gap: 1.6rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.portrait-row img {
+  width: 148px;
+  height: 148px;
+  object-fit: cover;
+  object-position: 50% 28%;
+  border-radius: 2px;
+  flex: 0 0 auto;
+}
+
+@media (max-width: 575px) {
+  .portrait-row { flex-direction: column; gap: 1.1rem; }
+  .portrait-row img { width: 124px; height: 124px; }
+}
+
+/* ---------- Link row ---------- */
+
+.linkrow {
+  font-size: 0.95rem;
+  color: var(--zx-muted);
+  margin: 1.6rem 0 0;
+  max-width: var(--zx-measure);
+}
+
+.linkrow a { white-space: nowrap; }
+
+.linkrow .sep {
+  color: var(--zx-rule);
+  padding: 0 0.42rem;
+}
+
+/* ---------- Dated list (Recent, talks) ---------- */
+
+.dated, .dated ul {
+  margin: 1.2rem 0 0;
+  padding: 0;
+  list-style: none;
+  max-width: var(--zx-measure);
+}
+
+.dated li {
+  display: grid;
+  grid-template-columns: 8.2rem 1fr;
+  gap: 0.6rem;
+  padding: 0.72rem 0;
+  border-bottom: 1px solid var(--zx-rule);
+  max-width: none;
+}
+
+.dated li:first-child { border-top: 1px solid var(--zx-rule); }
+
+.dated .when {
+  color: var(--zx-muted);
+  font-size: 0.88rem;
+  font-variant-numeric: tabular-nums;
+  padding-top: 0.14rem;
+}
+
+.dated .what { font-size: 0.97rem; }
+
+.dated .where {
+  display: block;
+  color: var(--zx-muted);
+  font-size: 0.88rem;
+  margin-top: 0.12rem;
+}
+
+@media (max-width: 575px) {
+  .dated li { grid-template-columns: 1fr; gap: 0.15rem; }
+}
+
+/* ---------- Research cards on the index ---------- */
+
+.threads {
+  margin-top: 1.1rem;
+  max-width: var(--zx-measure);
+}
+
+.thread {
+  padding: 1.15rem 0;
+  border-top: 1px solid var(--zx-rule);
+}
+
+.thread:last-child { border-bottom: 1px solid var(--zx-rule); }
+
+.thread h3 {
+  font-size: 1.14rem;
+  margin: 0 0 0.3rem;
+}
+
+.thread h3 a { border-bottom: none; }
+
+.thread h3 a:hover { border-bottom: 1px solid var(--zx-accent); }
+
+.thread p {
+  margin: 0;
+  color: var(--zx-muted);
+  font-size: 0.97rem;
+}
+
+/* ---------- Roles and roster lists ---------- */
+
+.roles, .roles ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  max-width: var(--zx-measure);
+}
+
+.roles li {
+  padding: 0.62rem 0;
+  border-bottom: 1px solid var(--zx-rule);
+  max-width: none;
+}
+
+.roles li:first-child { border-top: 1px solid var(--zx-rule); }
+
+.roles .span {
+  display: block;
+  color: var(--zx-muted);
+  font-size: 0.87rem;
+  font-variant-numeric: tabular-nums;
+  margin-top: 0.1rem;
+}
+
+.people, .people ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.8rem 0 0;
+  max-width: var(--zx-measure);
+}
+
+.people li {
+  padding: 0.68rem 0;
+  border-bottom: 1px solid var(--zx-rule);
+  max-width: none;
+}
+
+.people li:first-child { border-top: 1px solid var(--zx-rule); }
+
+.people .who { font-weight: 600; }
+
+.people .meta {
+  color: var(--zx-muted);
+  font-size: 0.88rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.people .what {
+  display: block;
+  color: var(--zx-muted);
+  font-size: 0.92rem;
+  margin-top: 0.12rem;
+}
+
+/* ---------- Numbered publication list ---------- */
+
+.pubs, .pubs ol {
+  margin: 1.1rem 0 0;
+  padding-left: 0;
+  max-width: var(--zx-measure);
+}
+
+.pubs ol { padding-left: 1.6rem; }
+
+.pubs li {
+  padding: 0.62rem 0;
+  max-width: none;
+}
+
+.pubs li + li { border-top: 1px solid var(--zx-rule); }
+
+.pubs .title { font-style: italic; }
+
+.pubs .venue {
+  display: block;
+  color: var(--zx-muted);
+  font-size: 0.89rem;
+  font-variant-numeric: tabular-nums;
+  margin-top: 0.1rem;
+}
+
+/* ---------- Figures ---------- */
+
+figure {
+  margin: 2.1rem 0;
+  max-width: var(--zx-measure);
+}
+
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+.wide {
+  max-width: min(46rem, 100%);
+}
+
+/* ---------- References ---------- */
+
+.refs, .refs ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  font-size: 0.93rem;
+  max-width: var(--zx-measure);
+}
+
+.refs li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--zx-rule);
+  max-width: none;
+}
+
+.refs li:first-child { border-top: 1px solid var(--zx-rule); }
+
+.refs .title { font-style: italic; }
+
+/* ---------- TODO callouts ---------- */
+
+.todo {
+  border-left: 3px solid #d79a26;
+  background: #fdf6e8;
+  padding: 0.75rem 1rem;
+  margin: 1.5rem 0;
+  font-size: 0.92rem;
+  color: #6b5320;
+  max-width: var(--zx-measure);
+}
+
+.todo p { max-width: none; margin-bottom: 0.4rem; }
+.todo p:last-child { margin-bottom: 0; }
+.todo strong { color: #7d5f1d; }
+
+/* ---------- Footer ---------- */
+
+.nav-footer {
+  border-top: 1px solid var(--zx-rule);
+  font-size: 0.87rem;
+  color: var(--zx-muted);
+  margin-top: 2rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1.6rem;
+}
+
+.nav-footer a { color: var(--zx-muted); }
+
+/* ---------- Motion ---------- */
+
+/* The hero sweep is the only animation on the site, and it lives inside the SVG.
+   No hover transitions on links, cards or figures. */
+a, .thread, figure, .btn { transition: none !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; }
+}
+
+/* ---------- Div wrappers around block content ---------- */
+
+/* Quarto renders a fenced div as <div class="x"><p>...</p></div>; strip the
+   inner paragraph margins so the wrapper controls spacing. */
+.standfirst p,
+.caption p,
+.linkrow p,
+.hero-role p { margin: 0; }
+
+.standfirst p + p { margin-top: 0.6rem; }
