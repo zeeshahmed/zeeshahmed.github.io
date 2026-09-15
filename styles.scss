@@ -56,12 +56,23 @@ main.content,
   padding-top: 0;
 }
 
-/* Single column, left aligned, held to a readable measure. */
+/* Single column, left aligned, held to a readable measure. The left inset
+   matches the navbar brand so the page has one left edge. */
 main.content {
-  max-width: var(--zx-measure);
+  max-width: calc(var(--zx-measure) + 3.5rem);
   margin-left: 0;
   margin-right: auto;
-  padding-bottom: 4rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  padding-bottom: 4.5rem;
+}
+
+@media (min-width: 768px) {
+  main.content {
+    max-width: calc(var(--zx-measure) + 7rem);
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -210,6 +221,8 @@ figcaption {
   max-width: 34rem;
   margin-top: 0.55rem;
 }
+
+.caption { margin-bottom: 2.6rem; }
 
 /* ---------- Portrait ---------- */
 
@@ -488,3 +501,26 @@ a, .thread, figure, .btn { transition: none !important; }
 .hero-role p { margin: 0; }
 
 .standfirst p + p { margin-top: 0.6rem; }
+
+/* An image alone in a fenced div still arrives wrapped in a paragraph. */
+.portrait-row > p,
+.s21 > p,
+.s21 > figure,
+figure > p { margin: 0; }
+
+.portrait-row > p { flex: 0 0 auto; }
+
+#hero-s21 { display: block; width: 100%; height: auto; }
+
+/* Quarto centres figures by default; this site is left-aligned throughout.
+   Portrait-orientation photographs are capped in height so they illustrate
+   rather than dominate. */
+.quarto-figure,
+.quarto-figure-center { text-align: left; margin-left: 0; }
+
+figure img,
+.quarto-figure img {
+  width: auto;
+  max-width: 100%;
+  max-height: 30rem;
+}

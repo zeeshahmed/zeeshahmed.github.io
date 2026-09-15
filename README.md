@@ -30,7 +30,9 @@ group.qmd                   members, alumni, recruiting
 publications.qmd            selected list plus links out
 outreach.qmd                talks, public lectures, outreach
 styles.scss                 the single stylesheet: palette, type, layout
-images/                     photographs and the generated hero SVG
+_hero.qmd                   generated inline hero SVG, included by index.qmd
+tools/make-hero.py          regenerates _hero.qmd
+images/                     photographs
 CLAUDE.md                   quarterly maintenance procedure
 ```
 

@@ -19,9 +19,7 @@ and how cosmic structure grew afterward.
 :::
 :::
 
-::: {.s21}
-![](images/s21.svg){alt="A microwave transmission measurement: a flat baseline interrupted by about forty narrow resonance dips, one for each readout channel."}
-:::
+{{< include _hero.qmd >}}
 
 ::: {.caption}
 Each dip is one channel. Reading thousands of them on a single coaxial line is what makes
