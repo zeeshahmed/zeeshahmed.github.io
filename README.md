@@ -43,5 +43,5 @@ which change, and what must not be asserted.
 
 - Photo credits are confirmed only for the two KIPAC images. Others carry descriptive
   captions and no attribution.
-- Items still marked with `.todo` callouts: SMuRF hardware photograph, DMF facility URL and
-  an operations photograph, alumni placements, press coverage 2024–2026.
+- Items still marked with `.todo` callouts: SMuRF hardware photograph, alumni placements,
+  press coverage 2024–2026.

@@ -20,10 +20,12 @@ it.
 
 ## The Detector Microfabrication Facility
 
-From 2022 to 2025 I directed the project that designed and built SLAC's Detector
-Microfabrication Facility. The facility is now in operations, and I work in it as a principal
-investigator, fabricating devices for cosmology and quantum sensing. I also sit on its
-process review committee.
+From 2022 to 2025 I directed the project that designed and built SLAC's [Detector
+Microfabrication Facility](https://dmf.slac.stanford.edu/). The facility is now in
+operations, and I work in it as a principal investigator, fabricating devices for cosmology
+and quantum sensing. I also sit on its process review committee.
+
+![The lithography bay. The yellow lighting keeps photoresist from exposing before it is developed.](images/litho-bay.jpg){fig-alt="Four people in white cleanroom suits working in a bay lit entirely in yellow, beside a large lithography tool and racks of wafer carriers."}
 
 It is a $49M, 5,500 square foot Class-100 cleanroom built for 150 mm wafers, with a process
 line covering niobium, aluminum, and silicon oxides and nitrides. That materials set is
@@ -31,13 +33,7 @@ chosen: it is what superconducting resonators, transition-edge sensors and nanow
 are actually made from, and having the full line in one place means a design change can be
 tested in weeks rather than negotiated across institutions over months.
 
-![The facility under construction, before it entered operations in 2025.](images/cleanroom.jpg){fig-alt="An empty cleanroom under construction, with white wall panels, an open ceiling grid and a technician on a stepladder installing a ceiling filter."}
-
-::: {.todo}
-**TODO.** Add the canonical SLAC URL for the Detector Microfabrication Facility once it
-exists, and replace the construction photograph with one of the facility in operation, or
-with a wafer.
-:::
+![A process bay in the finished facility.](images/fab-bay.jpg){fig-alt="A cleanroom process bay with a wet processing tool in the foreground and a vacuum chamber system on the far wall."}
 
 ## What we make there
 
