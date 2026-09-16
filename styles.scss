@@ -617,3 +617,16 @@ figure img,
 @media (min-width: 768px) {
   .nav-footer .nav-footer-left { padding-left: 3.5rem; }
 }
+
+/* Collaboration marks set inline in a heading, capped at the cap height
+   of the heading text itself. */
+h2 img.hmark,
+h3 img.hmark {
+  height: 1em;
+  width: auto;
+  max-width: none;
+  max-height: 1em;
+  vertical-align: -0.1em;
+  margin-left: 0.45rem;
+  border-radius: 1px;
+}
