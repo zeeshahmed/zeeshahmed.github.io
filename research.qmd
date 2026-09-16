@@ -26,15 +26,17 @@ used to delens those B-mode data. Lensing of the CMB by intervening structure co
 polarization into B modes that would otherwise swamp a primordial signal at this level, so
 delensing is not a refinement of the measurement but a requirement of it.
 
-![Installing the BICEP Array calibration mirror.](images/bicep-array-calibration-mirror.jpg){fig-alt="Two people on scaffolding beside the four cylindrical BICEP Array receivers, mounted in a blue-skirted ground shield on the Antarctic plateau."}
-
 I am the DOE principal investigator of the BICEP Array Upgrade Project, populating the fourth
 BICEP Array receiver with detector modules before installation and commissioning at the South
 Pole. I am also the SLAC principal investigator and Readout L2 manager for SPT-3G+, leading
 the microwave SQUID multiplexed readout for a receiver of 24,080 transition-edge sensors at
 90 and 150 GHz, planned for installation in early 2029.
 
-![Integrating the fourth BICEP Array receiver.](images/ba4-integration.jpg){fig-alt="Five people standing beside a tall cylindrical cryostat in a laboratory high bay."}
+::: {layout-ncol=2}
+![Installing the BICEP Array calibration mirror at the South Pole.](images/bicep-array-calibration-mirror.jpg){fig-alt="Two people on scaffolding beside the four cylindrical BICEP Array receivers, mounted in a blue-skirted ground shield on the Antarctic plateau."}
+
+![Brianna Cantrall, center, with Harvard and Boston University collaborators, integrating the fourth BICEP Array receiver.](images/ba4-integration.jpg){fig-alt="Five people standing beside a tall cylindrical cryostat in a laboratory high bay."}
+:::
 
 ### Earlier work in this program
 

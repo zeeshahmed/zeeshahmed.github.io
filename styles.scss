@@ -540,3 +540,25 @@ figure img,
 .logo { margin: 1.4rem 0 1.8rem; }
 .logo p { margin: 0; }
 .logo img { width: auto; max-width: 190px; max-height: 112px; height: auto; }
+
+/* Two figures side by side (Quarto layout-ncol=2), stacking on narrow screens. */
+.quarto-layout-row {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  max-width: var(--zx-measure);
+}
+
+.quarto-layout-cell { flex: 1 1 0; min-width: 0; }
+
+.quarto-layout-cell figure { margin: 0; max-width: 100%; }
+
+.quarto-layout-cell figure img {
+  width: 100%;
+  max-height: 22rem;
+  object-fit: cover;
+}
+
+@media (max-width: 575px) {
+  .quarto-layout-row { flex-direction: column; gap: 1.6rem; }
+}

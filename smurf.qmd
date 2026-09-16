@@ -11,7 +11,7 @@ that comb, follow what each resonator does to its tone, and turn the result back
 detector timestream. SMuRF does this in warm digital electronics, and the specific thing it
 does differently is track.
 
-![A seven-slot SMuRF crate on the bench, each card reading out its own set of resonators.](images/smurf-crate.jpg){fig-alt="A rack-mounted crate holding six blue circuit cards, each with gold coaxial connectors and blue semi-rigid cables running to the left."}
+![Six SMuRF cards in a seven-slot ATCA crate, about 20,000 channels.](images/smurf-crate.jpg){fig-alt="A rack-mounted crate holding six blue circuit cards, each with gold coaxial connectors and blue semi-rigid cables running to the left."}
 
 ## Tone tracking
 
@@ -37,17 +37,22 @@ channel count to grow. My group developed the technique to a 1000× multiplexing
 transition-edge sensor bolometers, and demonstrated a 1820-channel multiplexer with NIST
 Boulder in 2025.
 
+The tracking loop runs independently on every resonator, and faster than the sky signals
+being recorded. A feedforward path on top of that feedback allows fast signal modulation,
+which buys further control over instrument noise.
+
 The resonator chip designs themselves are the work of NIST Boulder. SMuRF is the warm
 electronics and the algorithms that drive them.
 
 ## Where it runs
 
-My group designed, prototyped, validated, fabricated and delivered the SMuRF warm readout
-electronics for the Simons Observatory cameras, and for the readout system of the Advanced
-Simons Observatory expansion. SMuRF reads out 98,000 transition-edge sensors at the Simons
-Observatory, which as of 2026 is the largest deployment of microwave SQUID multiplexing for
-TES bolometers anywhere. The same electronics are in use for X-ray calorimetry and for
-quantum device measurement.
+A single SMuRF board manipulates 3,328 resonators, and a crate of six carries roughly
+20,000 channels. My group designed, prototyped, validated, fabricated and delivered the
+SMuRF warm readout electronics for the Simons Observatory cameras, and for the readout
+system of the Advanced Simons Observatory expansion. SMuRF reads out 98,000 transition-edge
+sensors at the Simons Observatory, which as of 2026 is the largest deployment of microwave
+SQUID multiplexing for TES bolometers anywhere. The same electronics are in use for X-ray
+calorimetry and for quantum device measurement.
 
 ![The SMuRF carrier and RF front-end boards that go into each crate slot.](images/smurf-column-fpga.jpg){fig-alt="Two mated circuit boards on a bench, one dense with gold-shielded RF sections and one carrying the digital processing electronics."}
 
@@ -62,12 +67,20 @@ needs to read many superconducting sensors through a limited number of cold line
 same amplifier dynamic range problem, and dark matter, neutrino and quantum information
 experiments increasingly do.
 
-SPECTRA is an open-source RFSoC-based readout platform developed with Fermilab and the
-University of Chicago that pairs SMuRF tone tracking with QICK firmware. The combination
-spans two regimes that are usually served by different instruments: high channel density
-resonator arrays on one side, and MHz-bandwidth readout of individual quantum sensors on the
-other. It is intended for future CMB and submillimeter surveys alongside dark matter
+SPECTRA, the Scalable Platform for Experiment Control, Tone-tracking, and RF Acquisition,
+is an open-source RFSoC-based readout platform developed with Fermilab and the University
+of Chicago that pairs SMuRF tone tracking with QICK pulse control. The combination spans
+two regimes that are usually served by different instruments: high channel density
+resonator arrays on one side, and MHz-bandwidth readout of individual quantum sensors on
+the other. It is intended for future CMB and submillimeter surveys alongside dark matter
 searches, coherent elastic neutrino-nucleus scattering experiments, and rare-event searches.
+
+It is SMuRF moved off custom FPGAs and proprietary firmware: an RFSoC with an RF daughter
+card, deployable on an evaluation board, a QICK box, or a SLAC ATCA carrier depending on
+how many channels an experiment needs, with firmware variants for bolometers, calorimeters
+and qubit-based sensors. It also runs edge-AI on the readout itself, classifying the
+non-Gaussian events that qubit-based sensors produce in real time, alongside triggering and
+calibration.
 
 ![A SPECTRA prototype board.](images/spectra-board.jpg){fig-alt="An RFSoC-based readout board on a blue bench mat, with shielded RF sections, a large copper heatsink and a row of coaxial connectors along the front panel."}
 
@@ -80,14 +93,22 @@ channels for years.
 ## Selected references
 
 ::: {.refs}
+- Irwin, K. D. and Lehnert, K. W.
+  [*Microwave SQUID multiplexer.*](https://doi.org/10.1063/1.1791733)
+  Applied Physics Letters **85**, 2107 (2004).
+- Mates, J. A. B. PhD dissertation, University of Colorado Boulder (2011).
+- Dober, B. et al. [*A microwave SQUID multiplexer optimized for bolometric
+  applications.*](https://doi.org/10.1063/5.0033416) Applied Physics Letters **118**,
+  062601 (2021).
 - Yu, C. et al. [*SLAC microresonator RF (SMuRF) electronics: A tone-tracking readout system
   for superconducting microwave resonator arrays.*](https://doi.org/10.1063/5.0125084)
   Review of Scientific Instruments **94**, 014712 (2023).
 - Groh, J. C. et al. [*Demonstration of a 1820 channel multiplexer for transition-edge sensor
   bolometers.*](https://doi.org/10.1063/5.0290914) Applied Physics Letters **127**, 152602
   (2025).
-- Groh, J. C. et al. [*Crosstalk Effects in Microwave SQUID Multiplexed TES Bolometer Readout.*](https://doi.org/10.1007/s10909-024-03126-w) Journal of Low Temperature
-  Physics (2024).
+- Groh, J. C. et al. [*Crosstalk Effects in Microwave SQUID Multiplexed TES Bolometer
+  Readout.*](https://doi.org/10.1007/s10909-024-03126-w) Journal of Low Temperature Physics
+  (2024).
 - Henderson, S. W. et al. [*Highly-multiplexed microwave SQUID readout using the SLAC
   Microresonator Radio Frequency (SMuRF) electronics for future CMB and sub-millimeter
   surveys.*](https://doi.org/10.1117/12.2314435) Proc. SPIE **10708**, 1070819 (2018).
@@ -95,7 +116,7 @@ channels for years.
   Read Out of Frequency-Division-Multiplexed Cryogenic
   Sensors.*](https://doi.org/10.1007/s10909-018-1981-5) Journal of Low Temperature Physics
   **193**, 570 (2018).
-- Liu, C. et al. [*Development of RFSoC-based direct sampling highly multiplexed microwave SQUID
-  readout for CMB and submillimeter surveys.*](https://doi.org/10.1117/12.3019317) Proc. SPIE **13102**,
-  1310211 (2024).
+- Liu, C. et al. [*Development of RFSoC-based direct sampling highly multiplexed microwave
+  SQUID readout for CMB and submillimeter surveys.*](https://doi.org/10.1117/12.3019317)
+  Proc. SPIE **13102**, 1310211 (2024).
 :::
