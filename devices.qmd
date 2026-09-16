@@ -52,4 +52,4 @@ placement itself. Controlling where each resonator lands across a wafer, and und
 what drives the scatter, is what decides whether a multiplexer is usable or collision-riddled
 at the channel counts the [readout](smurf.qmd) can otherwise support.
 
-![Readout modules and their wiring on a cryogenic focal plane assembly.](images/focal-plane.jpg){fig-alt="Overhead view of a cryogenic focal plane assembly with seven circular modules, densely populated with small circuit components, Kapton tape and wiring harnesses."}
+![A patterned wafer in the lithography bay.](images/patterned-wafer.jpg){fig-alt="A silicon wafer in a carrier under yellow cleanroom light, its surface covered in a grid of patterned dies."}

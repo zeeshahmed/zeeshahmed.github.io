@@ -26,11 +26,15 @@ used to delens those B-mode data. Lensing of the CMB by intervening structure co
 polarization into B modes that would otherwise swamp a primordial signal at this level, so
 delensing is not a refinement of the measurement but a requirement of it.
 
+![The South Pole Observatory: the BICEP telescopes at the Dark Sector Laboratory, left, and the 10 meter South Pole Telescope, right.](images/south-pole-observatory.jpg){fig-alt="A stylized illustration of two telescope facilities on the Antarctic plateau, a low building with a small dish at left and a large dish on a tall mount at right, against a pink sky."}
+
 I am the DOE principal investigator of the BICEP Array Upgrade Project, populating the fourth
 BICEP Array receiver with detector modules before installation and commissioning at the South
 Pole. I am also the SLAC principal investigator and Readout L2 manager for SPT-3G+, leading
 the microwave SQUID multiplexed readout for a receiver of 24,080 transition-edge sensors at
 90 and 150 GHz, planned for installation in early 2029.
+
+![Integrating the fourth BICEP Array receiver.](images/ba4-integration.jpg){fig-alt="Five people standing beside a tall cylindrical cryostat in a laboratory high bay."}
 
 ### Earlier work in this program
 
@@ -61,6 +65,8 @@ first light in February 2025.
 My group built the detector readout electronics for the observatory. I am a co-investigator
 on the NSF-funded Advanced Simons Observatory project, leading the SLAC scope for the
 expanded observatory's readout system.
+
+![The six-meter Large Aperture Telescope at the Simons Observatory.](images/so-lat-dusk.jpg){fig-alt="A large boxy telescope enclosure on the Atacama plateau at dusk, lit from below, with pink cloud and dark hills behind it."}
 
 My group is carrying out a comprehensive study of instrument systematic effects on CMB
 lensing reconstruction with Large Aperture Telescope data, running from 2025. That includes

@@ -5,6 +5,8 @@ description-meta: "Current members, alumni, and how to join Zeeshan Ahmed's grou
 
 ![In the lab. Front row, left to right: Toby Satterthwaite, Zeeshan Ahmed, Shawn Henderson. Back row, left to right: Rui Shi and Cheng Zhang. (Credit: KIPAC)](images/group.jpg){fig-alt="Five people standing and smiling in front of a laboratory cryostat rack with a sign reading CMB."}
 
+![Toby Satterthwaite and Zeeshan Ahmed at the completed Advanced Simons Observatory LAT camera.](images/lat-camera-completion.jpg){fig-alt="Two people seated in front of a large open cryostat packed with foil-wrapped optics tubes and wiring."}
+
 ## Graduate students
 
 ::: {.people}

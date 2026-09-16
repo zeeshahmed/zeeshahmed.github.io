@@ -11,7 +11,7 @@ that comb, follow what each resonator does to its tone, and turn the result back
 detector timestream. SMuRF does this in warm digital electronics, and the specific thing it
 does differently is track.
 
-![A transmission measurement of a resonator array on a network analyzer. Each downward spike is one resonator, and one detector channel.](images/s21-trace.jpg){fig-alt="A network analyzer screen showing a microwave transmission trace with dozens of sharp downward resonance dips across a frequency span of about one gigahertz."}
+![A seven-slot SMuRF crate on the bench, each card reading out its own set of resonators.](images/smurf-crate.jpg){fig-alt="A rack-mounted crate holding six blue circuit cards, each with gold coaxial connectors and blue semi-rigid cables running to the left."}
 
 ## Tone tracking
 
@@ -19,6 +19,8 @@ A conventional readout parks a fixed tone at each resonance. That works until th
 responds: as the sensor's inductance changes, its resonance moves, and the fixed tone slides
 down the side of the dip. The signal then appears as a large amplitude swing on a tone that
 is no longer where it should be.
+
+![A transmission measurement of a resonator array on a network analyzer. Each downward spike is one resonator, and one detector channel.](images/s21-trace.jpg){fig-alt="A network analyzer screen showing a microwave transmission trace with dozens of sharp downward resonance dips across a frequency span of about one gigahertz."}
 
 The cost of that is paid in the cryogenic amplifier. Every tone in the comb passes through
 the same first-stage amplifier at once, and the amplifier has to carry all of them
@@ -47,7 +49,7 @@ Observatory, which as of 2026 is the largest deployment of microwave SQUID multi
 TES bolometers anywhere. The same electronics are in use for X-ray calorimetry and for
 quantum device measurement.
 
-![A detector module: one hexagonal array of transition-edge sensors behind its feedhorns, with the coaxial lines that carry every channel out of the cryostat.](images/detector-module.jpg){fig-alt="Gloved hands holding a gold hexagonal detector module densely packed with hundreds of circular feedhorn apertures, with blue coaxial cables attached."}
+![The SMuRF carrier and RF front-end boards that go into each crate slot.](images/smurf-column-fpga.jpg){fig-alt="Two mated circuit boards on a bench, one dense with gold-shielded RF sections and one carrying the digital processing electronics."}
 
 ## Beyond the CMB
 
@@ -62,6 +64,8 @@ spans two regimes that are usually served by different instruments: high channel
 resonator arrays on one side, and MHz-bandwidth readout of individual quantum sensors on the
 other. It is intended for future CMB and submillimeter surveys alongside dark matter
 searches, coherent elastic neutrino-nucleus scattering experiments, and rare-event searches.
+
+![A SPECTRA prototype board.](images/spectra-board.jpg){fig-alt="An RFSoC-based readout board on a blue bench mat, with shielded RF sections, a large copper heatsink and a row of coaxial connectors along the front panel."}
 
 If you are reading this from the dark matter or quantum sensing side, the practical summary
 is that the hard engineering of scaling superconducting sensor readout has largely been done
@@ -90,10 +94,4 @@ channels for years.
 - Liu, C. et al. [*Development of RFSoC-based direct sampling highly multiplexed microwave SQUID
   readout for CMB and submillimeter surveys.*](https://doi.org/10.1117/12.3019317) Proc. SPIE **13102**,
   1310211 (2024).
-:::
-
-::: {.todo}
-**TODO.** Add a photograph of a SMuRF crate or of the warm electronics rack. This page will
-be found by people searching for the platform by name, and hardware they can recognise is
-worth more here than anywhere else on the site.
 :::

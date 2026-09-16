@@ -61,6 +61,8 @@ detector readout on CMB-S4.
 
 ## Contact
 
+![The Kavli Building at SLAC.](images/kavli-building.jpg){fig-alt="A modern three-story building with large windows, surrounded by redwoods and lawn at dusk."}
+
 2575 Sand Hill Road, Menlo Park, CA 94025
 
 [zeesh@slac.stanford.edu](mailto:zeesh@slac.stanford.edu)
