@@ -41,7 +41,6 @@ which change, and what must not be asserted.
 
 ## Outstanding
 
-- `cv.pdf` is linked from `index.qmd` and `about.qmd` but is not yet in the repository.
 - Photo credits are confirmed only for the two KIPAC images. Others carry descriptive
   captions and no attribution.
 - Items still marked with `.todo` callouts: SMuRF hardware photograph, DMF facility URL and
