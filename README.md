@@ -34,11 +34,11 @@ styles.scss                 the single stylesheet: palette, type, layout
 _hero.qmd                   generated inline hero SVG, included by index.qmd
 tools/make-hero.py          regenerates _hero.qmd
 images/                     photographs
-CLAUDE.md                   quarterly maintenance procedure
 ```
 
-`CLAUDE.md` is the file to read before editing content. It records which facts are settled,
-which change, and what must not be asserted.
+Maintenance notes live in `CLAUDE.md` in the parent directory, outside this repository.
+Read it before editing content: it records which facts are settled and which need checking
+each quarter.
 
 ## Outstanding
 
