@@ -48,7 +48,7 @@ KIPAC community outreach, 2013–2018 and 2023.
 Caltech Classroom Connection, 2006–2010, working with physics teachers at Pasadena High
 School and John Marshall Fundamental School.
 
-![The BICEP telescope at the South Pole, inside its ground shield.](images/bicep3-pole.jpg){fig-alt="A telescope receiver pointing skyward from the centre of a large white segmented ground shield, with the low sun and flat snow horizon behind it."}
+![The BICEP telescope at the South Pole, inside its ground shield.](images/bicep3-pole.jpg){fig-alt="A telescope receiver pointing skyward from the center of a large white segmented ground shield, with the low sun and flat snow horizon behind it."}
 
 ::: {.todo}
 **TODO.** Press coverage from 2024 to 2026 is missing. The old site's press list stopped in

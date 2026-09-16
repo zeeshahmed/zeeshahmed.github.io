@@ -18,14 +18,13 @@ of any accelerator.
 
 The [South Pole Observatory](http://bicepkeck.org) is a coordinated observing and analysis
 program of the BICEP and SPT collaborations at the Amundsen-Scott South Pole Research
-Station, targeting σ(r) = 0.001 on the tensor-to-scalar ratio. Compact small-aperture BICEP polarimeters integrate deeply on roughly 1% of the
-sky to search for the primordial signal, and to disentangle it from galactic foregrounds in that field.
-The 10 metre South Pole Telescope supplies the high-resolution maps of gravitational lensing
+Station, targeting σ(r) = 0.001 on the tensor-to-scalar ratio. Compact small-aperture BICEP
+polarimeters integrate deeply on roughly 1% of the sky to search for the primordial signal,
+and to disentangle it from Galactic foregrounds in that field.
+The 10 meter South Pole Telescope supplies the high-resolution maps of gravitational lensing
 used to delens those B-mode data. Lensing of the CMB by intervening structure converts E-mode
 polarization into B modes that would otherwise swamp a primordial signal at this level, so
 delensing is not a refinement of the measurement but a requirement of it.
-
-![Installing a receiver on the Keck Array mount at the South Pole in 2018.](images/bicep-array-pole.jpg){fig-alt="Several people in polar gear working on the open back of a telescope receiver mounted inside a large reflective ground shield, surrounded by snow."}
 
 I am the DOE principal investigator of the BICEP Array Upgrade Project, populating the fourth
 BICEP Array receiver with detector modules before installation and commissioning at the South
@@ -35,11 +34,14 @@ the microwave SQUID multiplexed readout for a receiver of 24,080 transition-edge
 
 ### Earlier work in this program
 
-As a postdoc, I led the design, construction, testing and deployment of BICEP3, which delivered ten times
-the optical throughput of the previous generation of BICEP receivers, from 2011 to 2015. From
-2015 to 2018, as Panofsky Fellow at SLAC, I coordinated BICEP/Keck science observations and oversaw low-level data
-reduction, map making and data quality assurance, work that produced the BK18 dataset and its
-constraint r(0.05) < 0.036 at 95% confidence. I also supervised the first published
+![Installing a receiver on the Keck Array mount at the South Pole in 2018.](images/bicep-array-pole.jpg){fig-alt="Several people in polar gear working on the open back of a telescope receiver mounted inside a large reflective ground shield, surrounded by snow."}
+
+As a postdoc, I led the design, construction, testing and deployment of BICEP3, which
+delivered ten times the optical throughput of the previous generation of BICEP receivers,
+from 2011 to 2015. From 2015 to 2018, as Panofsky Fellow at SLAC, I coordinated BICEP/Keck
+science observations and oversaw low-level data reduction, map making and data quality
+assurance, work that produced the BK18 dataset and its constraint r(0.05) < 0.036 at 95%
+confidence. I also supervised the first published
 constraints on ultralight axionlike fuzzy dark matter derived from polarization oscillations
 in BICEP/Keck data.
 
@@ -49,12 +51,13 @@ in BICEP/Keck data.
 
 The same CMB photons that carry the inflationary signal have traveled through all the
 structure that formed after recombination. Gravitational lensing deflects them, and
-reconstructing those deflections maps the total matter distribution. Combined with galaxy surveys, CMB lensing constrains the sum of neutrino
-masses, the behavior of dark energy, and the relationship between galaxies and the dark
-matter halos they occupy.
+reconstructing those deflections maps the total matter distribution. Combined with galaxy
+surveys, CMB lensing constrains the sum of neutrino masses, the behavior of dark energy,
+and the relationship between galaxies and the dark matter halos they occupy.
 
 I pursue this with the [Simons Observatory](https://simonsobservatory.org/), in the Parque
-Astronómico de Atacama in northern Chile. The six-meter Large Aperture Telescope achieved first light in February 2025.
+Astronómico de Atacama in northern Chile. The six-meter Large Aperture Telescope achieved
+first light in February 2025.
 My group built the detector readout electronics for the observatory. I am a co-investigator
 on the NSF-funded Advanced Simons Observatory project, leading the SLAC scope for the
 expanded observatory's readout system.
@@ -88,7 +91,8 @@ entanglement distribution, targeting high detection efficiency and low timing ji
 telecom wavelengths. I am also the principal investigator of an LDRD program from 2027 to
 2029 on high kinetic inductance thin films for amplification, sensing and quantum
 information, which extends the same materials platform to low-threshold detectors for dark
-matter and rare-event searches.
+matter and rare-event searches. My first experiment was a dark matter search, and the
+sensing techniques I have worked on since are finding their way back into that field.
 
 ## Devices
 

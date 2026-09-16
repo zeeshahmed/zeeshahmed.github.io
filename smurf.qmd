@@ -11,7 +11,7 @@ that comb, follow what each resonator does to its tone, and turn the result back
 detector timestream. SMuRF does this in warm digital electronics, and the specific thing it
 does differently is track.
 
-![A transmission measurement of a resonator array on a network analyser. Each downward spike is one resonator, and one detector channel.](images/s21-trace.jpg){fig-alt="A network analyser screen showing a microwave transmission trace with dozens of sharp downward resonance dips across a frequency span of about one gigahertz."}
+![A transmission measurement of a resonator array on a network analyzer. Each downward spike is one resonator, and one detector channel.](images/s21-trace.jpg){fig-alt="A network analyzer screen showing a microwave transmission trace with dozens of sharp downward resonance dips across a frequency span of about one gigahertz."}
 
 ## Tone tracking
 
@@ -51,7 +51,7 @@ quantum device measurement.
 
 ## Beyond the CMB
 
-Nothing about tone tracking is specific to millimetre-wave astronomy. Any experiment that
+Nothing about tone tracking is specific to millimeter-wave astronomy. Any experiment that
 needs to read many superconducting sensors through a limited number of cold lines faces the
 same amplifier dynamic range problem, and dark matter, neutrino and quantum information
 experiments increasingly do.
@@ -60,7 +60,7 @@ SPECTRA is an open-source RFSoC-based readout platform developed with Fermilab a
 University of Chicago that pairs SMuRF tone tracking with QICK firmware. The combination
 spans two regimes that are usually served by different instruments: high channel density
 resonator arrays on one side, and MHz-bandwidth readout of individual quantum sensors on the
-other. It is intended for future CMB and submillimetre surveys alongside dark matter
+other. It is intended for future CMB and submillimeter surveys alongside dark matter
 searches, coherent elastic neutrino-nucleus scattering experiments, and rare-event searches.
 
 If you are reading this from the dark matter or quantum sensing side, the practical summary

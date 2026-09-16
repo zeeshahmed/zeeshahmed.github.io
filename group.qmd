@@ -22,7 +22,7 @@ description-meta: "Current members, alumni, and how to join Zeeshan Ahmed's grou
 - [Jia 'Frank' Qu]{.who} [· Stanford · 2023–present · Einstein Fellow, 2026–present]{.meta}
   [CMB lensing reconstruction with the Simons Observatory.]{.what}
 - [Carlos Sierra]{.who} [· KIPAC Fellow, Stanford · 2024–present]{.meta}
-  [Millimetre-wave line intensity mapping simulations and experiment design.]{.what}
+  [Millimeter-wave line intensity mapping simulations and experiment design.]{.what}
 - [Tristan Pinsonneault-Marotte]{.who} [· Stanford · 2023–present]{.meta}
   [Simons Observatory readout subsystem; CMB and large-scale structure
   cross-correlations.]{.what}
@@ -34,7 +34,7 @@ description-meta: "Current members, alumni, and how to join Zeeshan Ahmed's grou
 
 ::: {.people}
 - [Cheng Zhang]{.who} [· Stanford · 2025–present]{.meta}
-  [Design, modelling and fabrication of superconducting and qubit-based sensors.]{.what}
+  [Design, modeling and fabrication of superconducting and qubit-based sensors.]{.what}
 - [Dominic Beck]{.who} [· Stanford · 2025–present]{.meta}
   [AI techniques for CMB data quality and data processing pipeline speedup.]{.what}
 :::
