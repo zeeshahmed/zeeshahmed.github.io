@@ -28,8 +28,8 @@ large detector arrays possible.
 
 I am CMB department head in SLAC's Fundamental Physics Directorate. I lead DOE's BICEP
 Array Upgrade Project in collaboration with NSF. I built the detector readout electronics
-for the Simons Observatory. Finally, I lead the photon sensors project in Q-NEXT's Sensors
-for Entanglement thrust.
+for the Simons Observatory. I lead the photon sensors project in Q-NEXT's Sensors for
+Entanglement thrust.
 
 ::: {.linkrow}
 [CV](Zeeshan_Ahmed_CV_and_Publications.pdf) [·]{.sep}
