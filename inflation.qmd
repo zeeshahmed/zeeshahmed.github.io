@@ -16,7 +16,11 @@ emission that shine in polarization along the same line of sight, and the gravit
 lensing that converts the CMB's own E modes into B modes. The South Pole Observatory is
 built around attacking all three at once.
 
-## The South Pole Observatory ![BICEP Array](images/bicep-array-logo.png){.hmark} ![South Pole Observatory](images/south-pole-observatory.jpg){.hmark} {#the-south-pole-observatory}
+## The South Pole Observatory
+
+::: {.marks}
+![BICEP Array](images/bicep-array-logo.png) ![South Pole Observatory](images/south-pole-observatory.jpg)
+:::
 
 The [South Pole Observatory](http://bicepkeck.org) is a coordinated observing and analysis
 program of the BICEP and SPT collaborations at the Amundsen-Scott South Pole Research
