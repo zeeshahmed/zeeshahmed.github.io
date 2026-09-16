@@ -26,7 +26,7 @@ Each dip is one channel. Reading thousands of them on a single coaxial line make
 large detector arrays possible.
 :::
 
-I lead the CMB department in SLAC's Fundamental Physics Directorate. I lead DOE's BICEP
+I am CMB department head in SLAC's Fundamental Physics Directorate. I lead DOE's BICEP
 Array Upgrade Project in collaboration with NSF. I built the detector readout electronics
 for the Simons Observatory. Finally, I lead the photon sensors project in Q-NEXT's Sensors
 for Entanglement thrust.
