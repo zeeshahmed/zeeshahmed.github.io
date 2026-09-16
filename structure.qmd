@@ -65,7 +65,7 @@ from joint ACT, SPT and Planck CMB lensing in *Physical Review Letters* **136**,
 measurements from three experiments into one consistent analysis is the kind of result that
 sets the baseline the Simons Observatory data will be measured against.
 
-::: {.todo}
+::: {.todo .content-visible when-profile="draft"}
 **TODO, drafted text to check.** Written by me rather than taken from your material, so
 check or cut: the Sunyaev Zeldovich paragraph in the opening, **A large-aperture telescope
 is what lensing reconstruction requires**, the paragraph on why crosstalk needs both ends,

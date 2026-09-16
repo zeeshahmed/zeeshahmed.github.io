@@ -72,7 +72,7 @@ description-meta: "Current members, alumni, and how to join Zeeshan Ahmed's grou
   [Microwave multiplexing development.]{.what}
 :::
 
-::: {.todo}
+::: {.todo .content-visible when-profile="draft"}
 **TODO.** Current placements for the alumni above are not yet confirmed and are therefore
 omitted. Supply them for Bianchini, Goldfinger, Cukierman, Young, Kernasovskiy, Silva-Feaver
 and Kuenstner and they will be added.

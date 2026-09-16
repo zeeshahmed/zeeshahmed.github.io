@@ -78,7 +78,7 @@ dark matter derived from polarization oscillations in BICEP/Keck data.
 
 ![Signal and noise in BICEP/Keck temperature and polarization maps at 95 GHz. The polarization maps are the measurement that matters: the primordial B-mode signal, if present, is far fainter still.](images/bicep-maps.png){fig-alt="Six sky maps arranged in two columns showing temperature, Q and U polarization signal and noise for a patch of southern sky."}
 
-::: {.todo}
+::: {.todo .content-visible when-profile="draft"}
 **TODO, drafted text and captions to check.** Two paragraphs here are mine rather than yours and are
 written from general knowledge of the program, not from anything you supplied: the one
 listing the three obstacles (sensitivity, foregrounds, lensing), and **The site does much of
