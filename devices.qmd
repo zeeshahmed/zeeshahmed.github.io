@@ -27,7 +27,7 @@ and quantum sensing. I also sit on its process review committee.
 
 ![The lithography bay. The yellow lighting keeps photoresist from exposing before it is developed.](images/litho-bay.jpg){fig-alt="Four people in white cleanroom suits working in a bay lit entirely in yellow, beside a large lithography tool and racks of wafer carriers."}
 
-It is a $49M, 5,500 square foot Class-100 cleanroom built for 150 mm wafers, with a process
+It is a 5,500 square foot Class-100 cleanroom built for 150 mm wafers, with a process
 line covering niobium, aluminum, and silicon oxides and nitrides. That materials set is
 chosen: it is what superconducting resonators, transition-edge sensors and nanowire detectors
 are actually made from, and having the full line in one place means a design change can be
@@ -47,6 +47,10 @@ information, under an LDRD program running 2027 to 2029. The same film platform 
 low-threshold detectors for dark matter and rare-event searches, where the relevant figure of
 merit is how little energy can be detected at all.
 
+What these have in common is that the limit is set by uniformity across many devices rather
+than by one good device, and that each of them has to be read out at scale by the
+[SMuRF platform](smurf.qmd).
+
 ![A patterned wafer in the lithography bay.](images/patterned-wafer.jpg){fig-alt="A silicon wafer in a carrier under yellow cleanroom light, its surface covered in a grid of patterned dies."}
 
-![A detector module prototype built for CMB-S4, before that project was cancelled in 2025. The same module design now populates the fourth BICEP Array receiver.](images/module-prototype.jpg){fig-alt="A hexagonal detector module standing on edge, its perforated feedhorn face at one end and its readout electronics and flexible cabling behind."}
+![A detector module prototype built for CMB-S4, before that project was cancelled in 2025. A similar module design now populates the fourth BICEP Array receiver.](images/module-prototype.jpg){fig-alt="A hexagonal detector module standing on edge, its perforated feedhorn face at one end and its readout electronics and flexible cabling behind."}

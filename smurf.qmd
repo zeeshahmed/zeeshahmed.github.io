@@ -88,6 +88,9 @@ and is available to you. The warm electronics are built, the firmware is open, a
 technique has operated continuously on a deployed instrument with tens of thousands of
 channels for years.
 
+My first experiment was a dark matter search, and the sensing techniques I have worked on
+since are finding their way back into that field.
+
 ## Selected references
 
 ::: {.refs}

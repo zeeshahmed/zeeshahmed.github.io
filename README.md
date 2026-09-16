@@ -23,7 +23,8 @@ Pushing to `main` runs `.github/workflows/publish.yml`, which renders the site a
 _quarto.yml                 site config, navbar, fonts
 index.qmd                   hook, hero trace, three research threads, recent items
 about.qmd                   bio, current roles, education, contact
-research.qmd                the three scientific questions
+inflation.qmd               the inflation search, South Pole Observatory
+structure.qmd               CMB lensing and large-scale structure, Simons Observatory
 smurf.qmd                   the readout platform
 devices.qmd                 fabrication program and the DMF
 group.qmd                   members, alumni, recruiting

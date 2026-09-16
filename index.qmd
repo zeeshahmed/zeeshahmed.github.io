@@ -43,21 +43,21 @@ Entanglement thrust.
 ::: {.threads}
 
 ::: {.thread}
-### [The first instant](research.qmd#the-first-instant)
+### [The first instant](inflation.qmd)
 Inflation predicts a background of primordial gravitational waves. The South Pole
 Observatory, combining BICEP Array and SPT-3G+, is searching for their imprint on
 CMB polarization with a target sensitivity of σ(r) = 0.001.
 :::
 
 ::: {.thread}
-### [How structure grew](research.qmd#how-structure-grew)
+### [How structure grew](structure.qmd)
 Gravitational lensing of the CMB maps all the matter between us and the last scattering
 surface. Additionally, the Sunyaev Zeldovich (SZ) effect tracks the pressure and momentum of electrons.
 The Simons Observatory's rich wide-field data helps us map these effects to understand how structure formed.
 :::
 
 ::: {.thread}
-### [Sensing at the quantum limit](research.qmd#sensing-at-the-quantum-limit)
+### [Sensing at the quantum limit](smurf.qmd)
 Microwave SQUID multiplexing and the SMuRF electronics read out 98,000 superconducting
 sensors at once. The same capability now serves quantum networking and dark matter
 searches.

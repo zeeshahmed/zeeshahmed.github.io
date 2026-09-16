@@ -16,18 +16,26 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: research.qmd
-        text: Research
-      - href: smurf.qmd
-        text: SMuRF
-      - href: devices.qmd
-        text: Devices
+      - text: Research
+        menu:
+          - href: inflation.qmd
+            text: The first instant
+          - href: structure.qmd
+            text: How structure grew
+      - text: Instruments
+        menu:
+          - href: smurf.qmd
+            text: SMuRF
+          - href: devices.qmd
+            text: Devices
       - href: group.qmd
         text: Group
-      - href: publications.qmd
-        text: Publications
-      - href: outreach.qmd
-        text: Talks
+      - text: Papers and talks
+        menu:
+          - href: publications.qmd
+            text: Publications
+          - href: outreach.qmd
+            text: Talks and outreach
       - href: about.qmd
         text: About
   page-footer:

@@ -562,3 +562,33 @@ figure img,
 @media (max-width: 575px) {
   .quarto-layout-row { flex-direction: column; gap: 1.6rem; }
 }
+
+/* ---------- Navbar dropdowns ---------- */
+
+.navbar .dropdown-menu {
+  border: 1px solid var(--zx-rule);
+  border-radius: 2px;
+  box-shadow: none;
+  background: var(--zx-paper);
+  padding: 0.3rem 0;
+  margin-top: 0.3rem;
+}
+
+.navbar .dropdown-item {
+  font-size: 0.93rem;
+  color: var(--zx-muted);
+  padding: 0.38rem 0.9rem;
+  border-bottom: none;
+}
+
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+  background: var(--zx-accent-soft);
+  color: var(--zx-ink);
+}
+
+.navbar .dropdown-item.active {
+  background: transparent;
+  color: var(--zx-ink);
+  font-weight: 600;
+}
