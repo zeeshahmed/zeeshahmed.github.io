@@ -10,6 +10,10 @@ their readout, and the devices underneath. My group works across that whole stac
 
 ## The first instant
 
+::: {.logo}
+![](images/bicep-array-logo.png){fig-alt="BICEP Array logo"}
+:::
+
 Inflation predicts that the violent expansion of the early Universe left behind a background
 of primordial gravitational waves. Those waves would imprint a distinctive curl, a B-mode
 pattern, on the polarization of the cosmic microwave background at degree angular scales.
@@ -26,7 +30,7 @@ used to delens those B-mode data. Lensing of the CMB by intervening structure co
 polarization into B modes that would otherwise swamp a primordial signal at this level, so
 delensing is not a refinement of the measurement but a requirement of it.
 
-![The South Pole Observatory: the BICEP telescopes at the Dark Sector Laboratory, left, and the 10 meter South Pole Telescope, right.](images/south-pole-observatory.jpg){fig-alt="A stylized illustration of two telescope facilities on the Antarctic plateau, a low building with a small dish at left and a large dish on a tall mount at right, against a pink sky."}
+![Installing the BICEP Array calibration mirror.](images/bicep-array-calibration-mirror.jpg){fig-alt="Two people on scaffolding beside the four cylindrical BICEP Array receivers, mounted in a blue-skirted ground shield on the Antarctic plateau."}
 
 I am the DOE principal investigator of the BICEP Array Upgrade Project, populating the fourth
 BICEP Array receiver with detector modules before installation and commissioning at the South
@@ -75,6 +79,8 @@ map making into the lensing estimator, where its effect on the reconstructed len
 can actually be judged. The group also handles source removal, null tests and results
 validation for lensing reconstruction with the telescope's Initial Science Observations, with
 publications in preparation.
+
+![The Large Aperture Telescope receiver open during the Advanced Simons Observatory camera upgrade.](images/lat-receiver-optics-tubes.jpg){fig-alt="A large cylindrical cryostat opened to show a ring of foil-wrapped optics tubes, with three people working at its rim."}
 
 ## Sensing at the quantum limit
 

@@ -32,6 +32,8 @@ description-meta: "Recent invited talks, conference presentations, and public le
   Targeting σ(r) ∼ 0.001 [APS Division of Particles and Fields]{.where}]{.what}
 :::
 
+![The BICEP Array team at the South Pole.](images/bicep-array-team.jpg){fig-alt="Eleven people in cold-weather gear posing in front of the four BICEP Array receiver windows."}
+
 ## Public lectures
 
 ::: {.dated}

@@ -89,6 +89,8 @@ and Kuenstner and they will be added.
   [Senior engineer, Google.]{.what}
 :::
 
+![In the readout lab.](images/lab-readout.jpg){fig-alt="Six people gathered around a bench of readout electronics in a laboratory, one pointing at a screen."}
+
 ## Joining the group
 
 Concrete directions with room in them right now:

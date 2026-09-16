@@ -53,3 +53,5 @@ what drives the scatter, is what decides whether a multiplexer is usable or coll
 at the channel counts the [readout](smurf.qmd) can otherwise support.
 
 ![A patterned wafer in the lithography bay.](images/patterned-wafer.jpg){fig-alt="A silicon wafer in a carrier under yellow cleanroom light, its surface covered in a grid of patterned dies."}
+
+![A detector module prototype built for CMB-S4, before that project was cancelled in 2025. The same module design now populates the fourth BICEP Array receiver.](images/module-prototype.jpg){fig-alt="A hexagonal detector module standing on edge, its perforated feedhorn face at one end and its readout electronics and flexible cabling behind."}

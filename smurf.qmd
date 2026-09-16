@@ -53,6 +53,10 @@ quantum device measurement.
 
 ## Beyond the CMB
 
+::: {.logo}
+![](images/spectra-logo.png){fig-alt="SPECTRA logo"}
+:::
+
 Nothing about tone tracking is specific to millimeter-wave astronomy. Any experiment that
 needs to read many superconducting sensors through a limited number of cold lines faces the
 same amplifier dynamic range problem, and dark matter, neutrino and quantum information

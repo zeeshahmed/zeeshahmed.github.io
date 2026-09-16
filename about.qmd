@@ -17,6 +17,8 @@ develop superconducting multiplexing techniques for next-generation CMB cameras.
 appointed a Lead Scientist at SLAC in 2020 and Associate Professor of Particle Physics and
 Astrophysics at Stanford and SLAC in 2023.
 
+![At the Simons Observatory site in the Parque Astronómico de Atacama.](images/atacama-site.jpg){fig-alt="A person standing on a snow-dusted high-altitude plateau with volcanic peaks behind."}
+
 ## Current roles
 
 ::: {.roles}
