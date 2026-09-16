@@ -58,9 +58,9 @@ matter haloes they occupy.
 I pursue this with the [Simons Observatory](https://simonsobservatory.org/), in the Parque
 Astronómico de Atacama in northern Chile. The first small-aperture telescope began observing
 in 2023, and the six metre Large Aperture Telescope achieved first light in February 2025.
-I lead readout operations for the observatory, and I am a co-investigator on the NSF-funded
-Advanced Simons Observatory project, leading the SLAC scope for the expanded observatory's
-readout system.
+My group built the detector readout electronics for the observatory. I am a co-investigator
+on the NSF-funded Advanced Simons Observatory project, leading the SLAC scope for the
+expanded observatory's readout system.
 
 My group is carrying out a comprehensive study of instrument systematic effects on CMB
 lensing reconstruction with Large Aperture Telescope data, running from 2025. That includes

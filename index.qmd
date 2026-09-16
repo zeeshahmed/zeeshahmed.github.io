@@ -22,13 +22,14 @@ and how cosmic structure grew afterward.
 {{< include _hero.qmd >}}
 
 ::: {.caption}
-Each dip is one channel. Reading thousands of them on a single coaxial line is what makes
+Each dip is one channel. Reading thousands of them on a single coaxial line makes
 large detector arrays possible.
 :::
 
-I lead the CMB department in SLAC's Fundamental Physics Directorate, lead readout operations
-for the Simons Observatory, and lead the photon sensors project in Q-NEXT's Sensors for
-Entanglement thrust.
+I lead the CMB department in SLAC's Fundamental Physics Directorate. I lead DOE's BICEP
+Array Upgrade Project in collaboration with NSF. I built the detector readout electronics
+for the Simons Observatory. Finally, I lead the photon sensors project in Q-NEXT's Sensors
+for Entanglement thrust.
 
 ::: {.linkrow}
 [CV](Zeeshan_Ahmed_CV_and_Publications.pdf) [·]{.sep}
@@ -45,13 +46,14 @@ Entanglement thrust.
 ### [The first instant](research.qmd#the-first-instant)
 Inflation predicts a background of primordial gravitational waves. The South Pole
 Observatory, combining BICEP Array and SPT-3G+, is searching for their imprint on
-CMB polarization at σ(r) = 0.001.
+CMB polarization with a target sensitivity of σ(r) = 0.001.
 :::
 
 ::: {.thread}
 ### [How structure grew](research.qmd#how-structure-grew)
 Gravitational lensing of the CMB maps all the matter between us and the last scattering
-surface, whether or not it emits light. This is the Simons Observatory's territory.
+surface. Additionally, the Sunyaev Zeldovich (SZ) effect tracks the pressure and momentum of electrons.
+The Simons Observatory's rich wide-field data helps us map these effects to understand how structure formed.
 :::
 
 ::: {.thread}

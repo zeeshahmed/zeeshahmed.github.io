@@ -194,7 +194,7 @@ strong { font-weight: 600; }
 
 .standfirst {
   font-family: $font-family-serif;
-  font-size: 1.32rem;
+  font-size: 1.24rem;
   line-height: 1.5;
   color: var(--zx-ink);
   max-width: 34rem;
@@ -226,25 +226,36 @@ figcaption {
 
 /* ---------- Portrait ---------- */
 
+/* The portrait stretches to the exact height of the standfirst beside it,
+   so the two line up whatever the text length. */
 .portrait-row {
   display: flex;
-  gap: 1.6rem;
-  align-items: flex-start;
-  margin-bottom: 2rem;
+  gap: 1.75rem;
+  align-items: stretch;
+  margin-bottom: 2.3rem;
+}
+
+.portrait-row > p {
+  display: flex;
+  flex: 0 0 auto;
+  margin: 0;
 }
 
 .portrait-row img {
-  width: 148px;
-  height: 148px;
+  width: 178px;
+  height: auto;
+  min-height: 178px;
+  align-self: stretch;
   object-fit: cover;
-  object-position: 50% 28%;
+  object-position: 50% 26%;
   border-radius: 2px;
-  flex: 0 0 auto;
 }
 
+.portrait-row .standfirst { margin-bottom: 0; }
+
 @media (max-width: 575px) {
-  .portrait-row { flex-direction: column; gap: 1.1rem; }
-  .portrait-row img { width: 124px; height: 124px; }
+  .portrait-row { flex-direction: column; gap: 1.1rem; align-items: flex-start; }
+  .portrait-row img { width: 132px; height: 132px; min-height: 0; align-self: auto; }
 }
 
 /* ---------- Link row ---------- */

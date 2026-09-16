@@ -28,8 +28,6 @@ Astrophysics at Stanford and SLAC in 2023.
   [2025–present]{.span}
 - SLAC Principal Investigator and Readout L2 manager, SPT-3G+
   [2025–present]{.span}
-- Leads readout operations, Simons Observatory
-  [current]{.span}
 - Co-Investigator, Advanced Simons Observatory (NSF), leading the SLAC scope
   [2023–present]{.span}
 - Photon Sensors project lead, Sensors for Entanglement thrust, Q-NEXT
