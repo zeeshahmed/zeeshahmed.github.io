@@ -10,10 +10,6 @@ their readout, and the devices underneath. My group works across that whole stac
 
 ## The first instant
 
-::: {.logo}
-![](images/bicep-array-logo.png){fig-alt="BICEP Array logo"}
-:::
-
 Inflation predicts that the violent expansion of the early Universe left behind a background
 of primordial gravitational waves. Those waves would imprint a distinctive curl, a B-mode
 pattern, on the polarization of the cosmic microwave background at degree angular scales.
