@@ -47,11 +47,6 @@ information, under an LDRD program running 2027 to 2029. The same film platform 
 low-threshold detectors for dark matter and rare-event searches, where the relevant figure of
 merit is how little energy can be detected at all.
 
-**Test structures for the multiplexing program**, where the object of study is frequency
-placement itself. Controlling where each resonator lands across a wafer, and understanding
-what drives the scatter, is what decides whether a multiplexer is usable or collision-riddled
-at the channel counts the [readout](smurf.qmd) can otherwise support.
-
 ![A patterned wafer in the lithography bay.](images/patterned-wafer.jpg){fig-alt="A silicon wafer in a carrier under yellow cleanroom light, its surface covered in a grid of patterned dies."}
 
 ![A detector module prototype built for CMB-S4, before that project was cancelled in 2025. The same module design now populates the fourth BICEP Array receiver.](images/module-prototype.jpg){fig-alt="A hexagonal detector module standing on edge, its perforated feedhorn face at one end and its readout electronics and flexible cabling behind."}
