@@ -43,6 +43,8 @@ website:
       Zeeshan Ahmed · SLAC National Accelerator Laboratory and Stanford University ·
       [zeesh@slac.stanford.edu](mailto:zeesh@slac.stanford.edu)
 
+      [Built with [Quarto](https://quarto.org) and [Claude](https://claude.ai).]{.colophon}
+
 format:
   html:
     theme: [cosmo, styles.scss]

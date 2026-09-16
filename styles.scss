@@ -592,3 +592,28 @@ figure img,
   color: var(--zx-ink);
   font-weight: 600;
 }
+
+/* Footer colophon: quieter than the contact line above it. */
+.nav-footer p { margin: 0; }
+
+.nav-footer .colophon {
+  display: inline-block;
+  margin-top: 0.3rem;
+  font-size: 0.82rem;
+  color: var(--zx-muted);
+  opacity: 0.85;
+}
+
+/* Quarto centers the footer; this site is left aligned, and the footer
+   should share the content column's left edge. */
+.nav-footer,
+.nav-footer .nav-footer-left {
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.nav-footer .nav-footer-left { padding-left: 1.75rem; }
+
+@media (min-width: 768px) {
+  .nav-footer .nav-footer-left { padding-left: 3.5rem; }
+}
