@@ -53,29 +53,30 @@ description-meta: "Current members, alumni, and how to join Zeeshan Ahmed's grou
 ## Alumni
 
 ::: {.people}
-- [Cyndia Yu]{.who} [· PhD, 2023]{.meta}
+- [Cyndia Yu]{.who} [· PhD, 2023 · now at Rigetti Computing]{.meta}
   [*Large-Scale Observations of the Cosmic Microwave Background.*]{.what}
-- [Federico Bianchini]{.who} [· postdoc, 2020–2024]{.meta}
+- [Federico Bianchini]{.who} [· postdoc, 2020–2024 · now at Woven by Toyota]{.meta}
   [CMB inflation foreground cleaning.]{.what}
-- [David Goldfinger]{.who} [· postdoc, 2022–2023]{.meta}
+- [David Goldfinger]{.who} [· postdoc, 2022–2023 · now at MIT Lincoln Laboratory]{.meta}
   [CMB-S4 detector readout system development.]{.what}
-- [Ari Cukierman]{.who} [· postdoc, 2018–2022]{.meta}
+- [Ari Cukierman]{.who} [· postdoc, 2018–2022 · now a postdoctoral scholar at Caltech]{.meta}
   [Ultralight axion searches with CMB polarization; the BICEP/Keck microwave multiplexing
   demonstrator.]{.what}
-- [Ed Young]{.who} [· postdoc, 2018–2021]{.meta}
+- [Ed Young]{.who} [· postdoc, 2018–2021 · now Head of Research at Charm Industrial]{.meta}
   [X-ray calorimetry with microwave multiplexing.]{.what}
 - [Sarah Kernasovskiy]{.who} [· postdoc, 2016–2018]{.meta}
   [Development of SMuRF.]{.what}
-- [Max Silva-Feaver]{.who} [· PhD, UC San Diego · 2016–2023]{.meta}
+- [Max Silva-Feaver]{.who} [· PhD, UC San Diego · 2016–2023 · now Mossman Fellow at Yale]{.meta}
   [Microwave multiplexing for the Simons Observatory.]{.what}
 - [Stephen Kuenstner]{.who} [· PhD, Stanford · 2016–2018]{.meta}
   [Microwave multiplexing development.]{.what}
 :::
 
 ::: {.todo .content-visible when-profile="draft"}
-**TODO.** Current placements for the alumni above are not yet confirmed and are therefore
-omitted. Supply them for Bianchini, Goldfinger, Cukierman, Young, Kernasovskiy, Silva-Feaver
-and Kuenstner and they will be added.
+**TODO.** Two placements are still unconfirmed and therefore omitted: Sarah Kernasovskiy
+(a 2017 KIPAC entry says Fitbit; Google is a guess, not a source) and Stephen Kuenstner
+(possibly faculty at a liberal arts college; nothing found to confirm it). Supply either and
+it goes in.
 :::
 
 ## Former members now elsewhere
