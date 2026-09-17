@@ -97,7 +97,9 @@ since are finding their way back into that field.
 - Irwin, K. D. and Lehnert, K. W.
   [*Microwave SQUID multiplexer.*](https://doi.org/10.1063/1.1791733)
   Applied Physics Letters **85**, 2107 (2004).
-- Mates, J. A. B. PhD dissertation, University of Colorado Boulder (2011).
+- Mates, J. A. B. [*The Microwave SQUID
+  Multiplexer.*](https://scholar.colorado.edu/concern/graduate_thesis_or_dissertations/gt54kn14d)
+  PhD dissertation, University of Colorado Boulder (2011).
 - Dober, B. et al. [*A microwave SQUID multiplexer optimized for bolometric
   applications.*](https://doi.org/10.1063/5.0033416) Applied Physics Letters **118**,
   062601 (2021).
