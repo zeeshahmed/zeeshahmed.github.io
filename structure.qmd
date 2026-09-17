@@ -62,7 +62,7 @@ Jia 'Frank' Qu and colleagues published unified and consistent structure growth 
 from joint ACT, SPT and Planck CMB lensing in *Physical Review Letters* **136**, 021001
 (2026), [doi:10.1103/k5yr-3h6d](https://doi.org/10.1103/k5yr-3h6d).
 
-::: {.todo .content-visible when-profile="draft"}
-**TODO.** Add the recent CHIME collaboration result here, alongside the Qu paper. Reference
-needed: authors, title, venue, year and DOI.
-:::
+My group, with the CHIME collaboration, measured the squeezed bispectrum between CHIME H I
+emission and Planck CMB lensing, and forecast what future data will reach, in
+*The Astrophysical Journal* **1005**, 73 (2026),
+[doi:10.3847/1538-4357/ae77e6](https://doi.org/10.3847/1538-4357/ae77e6).
