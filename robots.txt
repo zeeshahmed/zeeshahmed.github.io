@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zeeshahmed.github.io/sitemap.xml
