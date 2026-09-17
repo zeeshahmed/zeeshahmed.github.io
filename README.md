@@ -42,8 +42,6 @@ each quarter.
 
 ## Outstanding
 
-- Photo credits are confirmed only for the two KIPAC images. Others carry descriptive
-  captions and no attribution.
-- Items still marked with `.todo` callouts, visible only under the draft profile
-  (`quarto preview --profile draft`): drafted text on inflation.qmd and structure.qmd,
-  alumni placements, press coverage 2024–2026.
+- One `.todo` callout remains, visible only under the draft profile
+  (`quarto preview --profile draft`): two unconfirmed alumni placements on group.qmd.
+- Photo credits are on five images; the rest carry none yet.
