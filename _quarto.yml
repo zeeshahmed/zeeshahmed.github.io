@@ -57,6 +57,7 @@ format:
     include-in-header:
       text: |
         <meta name="google-site-verification" content="TOPD3RV9q7ZJSPWM_I6yi8WiEX43LqhlxHDurQd6fzM" />
+        <meta name="msvalidate.01" content="D03CA522E040C18AD3E28B0F3EF4E467" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
