@@ -63,7 +63,11 @@ inflation, and lets it be subtracted.
 ![Brianna Cantrall, center, with Harvard and Boston University collaborators, integrating the fourth BICEP Array receiver.](images/ba4-integration.jpg){fig-alt="Five people standing beside a tall cylindrical cryostat in a laboratory high bay."}
 :::
 
+::: {layout-ncol=2}
 ![A prototype detector module for the fourth BICEP Array receiver, to be fielded in Fall 2026.](images/ba4-detector-module.jpg){fig-alt="A gold hexagonal detector module on a bench, its face densely packed with circular feedhorn apertures, with assembly pins and a screwdriver beside it."}
+
+![Time-division multiplexed warm readout electronics, in development in my group.](images/tdm-warm-electronics.jpg){fig-alt="Two mated circuit boards on a bench, one carrying rows of gold-shielded modules and the other a dense array of components, with test leads attached."}
+:::
 
 ## Earlier work in this program
 
@@ -78,13 +82,3 @@ confidence. I also supervised the first published constraints on ultralight axio
 dark matter derived from polarization oscillations in BICEP/Keck data.
 
 ![Signal and noise in BICEP/Keck temperature and polarization maps at 95 GHz. The polarization maps are the measurement that matters: the primordial B-mode signal, if present, is far fainter still.](images/bicep-maps.png){fig-alt="Six sky maps arranged in two columns showing temperature, Q and U polarization signal and noise for a patch of southern sky."}
-
-::: {.todo .content-visible when-profile="draft"}
-**TODO, drafted text and captions to check.** Two paragraphs here are mine rather than yours and are
-written from general knowledge of the program, not from anything you supplied: the one
-listing the three obstacles (sensitivity, foregrounds, lensing), and **The site does much of
-the work**, on the plateau conditions and the choice of field. Correct or cut them. The
-paragraph tying the BICEP Array and SPT-3G+ roles together is also new, though it only
-restates the delensing argument above it. The BA4 module caption calls it a prototype,
-from the file name; correct it if that is the flight module.
-:::

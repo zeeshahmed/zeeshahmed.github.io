@@ -26,21 +26,20 @@ leading the SLAC scope for the expanded observatory's readout system.
 
 ![The six-meter Large Aperture Telescope at the Simons Observatory.](images/so-lat-dusk.jpg){fig-alt="A large boxy telescope enclosure on the Atacama plateau at dusk, lit from below, with pink cloud and dark hills behind it."}
 
-A large-aperture telescope is what lensing reconstruction requires. The deflections being
-measured are small and correlated on arcminute scales, so the instrument has to resolve
-them, which is why this measurement needs a six-meter dish where the inflation search at
-the [South Pole](inflation.qmd) can use compact refractors. It also has to cover a wide
-enough area of sky for the statistics to be worth having, which sets the scale of the
-camera and, in turn, of its readout.
+Lensing reconstruction requires a large-aperture telescope. The deflections being measured
+are small and correlated on arcminute scales, so the instrument has to resolve them, which
+is where a six-meter dish comes in handy. It also has to cover a wide enough area of sky for
+sufficient statistical sampling, which sets the scale of the camera and, in turn, of its
+readout.
 
 ![The Large Aperture Telescope receiver open during the Advanced Simons Observatory camera upgrade.](images/lat-receiver-optics-tubes.jpg){fig-alt="A large cylindrical cryostat opened to show a ring of foil-wrapped optics tubes, with three people working at its rim."}
 
-![The Large Aperture Telescope receiver, carrying the marks of the institutions that built it.](images/so-lat-receiver.jpg){fig-alt="A large cylindrical cryostat end cap covered in university and institution stickers, with a person on a step ladder working at its far side."}
+![Zeeshan Ahmed connecting SMuRF cables on the Large Aperture Telescope Receiver.](images/so-lat-receiver.jpg){fig-alt="A person on a step ladder working at the side of a large cylindrical cryostat in a telescope enclosure."}
 
 ## What my group is doing with the data
 
-My group is carrying out a comprehensive study of instrument systematic effects on CMB
-lensing reconstruction with Large Aperture Telescope data, running from 2025. That includes
+My group is carrying out a comprehensive study of potential instrument systematic effects on
+CMB lensing reconstruction with Large Aperture Telescope data, running from 2025. That includes
 readout crosstalk studies that quantify the level of the systematic and propagate it through
 map making into the lensing estimator, where its effect on the reconstructed lensing power
 can actually be judged. The group also handles source removal, null tests and results
@@ -54,22 +53,16 @@ entirely on how it propagates through map making into a quadratic estimator that
 built from products of the map. The question cannot be answered from either end alone.
 
 Group members also work on the large-scale structure science these maps feed:
-cross-correlations between CMB lensing and galaxy surveys, and millimeter-wave line
-intensity mapping as a route to structure at higher redshift than galaxy catalogs reach.
+cross-correlations between CMB lensing and galaxy surveys, and 21 cm and millimeter-wave
+line intensity mapping as routes to structure at higher redshift than galaxy catalogs reach.
 
-## Recent result
+## Recent results
 
 Jia 'Frank' Qu and colleagues published unified and consistent structure growth measurements
 from joint ACT, SPT and Planck CMB lensing in *Physical Review Letters* **136**, 021001
-(2026), [doi:10.1103/k5yr-3h6d](https://doi.org/10.1103/k5yr-3h6d). Combining the lensing
-measurements from three experiments into one consistent analysis is the kind of result that
-sets the baseline the Simons Observatory data will be measured against.
+(2026), [doi:10.1103/k5yr-3h6d](https://doi.org/10.1103/k5yr-3h6d).
 
 ::: {.todo .content-visible when-profile="draft"}
-**TODO, drafted text to check.** Written by me rather than taken from your material, so
-check or cut: the Sunyaev Zeldovich paragraph in the opening, **A large-aperture telescope
-is what lensing reconstruction requires**, the paragraph on why crosstalk needs both ends,
-the sentence on group members' cross-correlation and line intensity mapping work, and the
-framing of the Qu result. The underlying facts come from your CV and the build brief, but
-the connective argument is mine.
+**TODO.** Add the recent CHIME collaboration result here, alongside the Qu paper. Reference
+needed: authors, title, venue, year and DOI.
 :::

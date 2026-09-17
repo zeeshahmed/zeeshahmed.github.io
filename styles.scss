@@ -555,8 +555,13 @@ figure img,
 
 .quarto-layout-cell figure img {
   width: 100%;
-  max-height: 22rem;
+  height: 17rem;
+  max-height: none;
   object-fit: cover;
+}
+
+@media (max-width: 575px) {
+  .quarto-layout-cell figure img { height: auto; max-height: 22rem; }
 }
 
 @media (max-width: 575px) {
