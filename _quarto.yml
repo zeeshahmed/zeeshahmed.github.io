@@ -16,13 +16,13 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: Research
+      - text: Science
         menu:
           - href: inflation.qmd
             text: The first instant
           - href: structure.qmd
             text: How structure grew
-      - text: Instruments
+      - text: Tech
         menu:
           - href: smurf.qmd
             text: SMuRF
