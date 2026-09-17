@@ -8,13 +8,23 @@ include-in-header:
       {
         "@context": "https://schema.org",
         "@type": "Person",
+        "@id": "https://zeeshahmed.github.io/#person",
         "name": "Zeeshan Ahmed",
         "givenName": "Zeeshan",
         "familyName": "Ahmed",
         "jobTitle": "Associate Professor of Particle Physics and Astrophysics",
-        "url": "https://zeeshahmed.github.io/",
+        "description": "Experimental cosmologist working on CMB polarization, superconducting sensor readout, and quantum sensing.",
+        "url": "https://zeeshahmed.github.io",
         "image": "https://zeeshahmed.github.io/images/portrait.jpg",
         "email": "mailto:zeesh@slac.stanford.edu",
+        "identifier": {"@type": "PropertyValue", "propertyID": "ORCID",
+          "value": "https://orcid.org/0000-0002-9957-448X"},
+        "alumniOf": [
+          {"@type": "CollegeOrUniversity", "name": "California Institute of Technology"},
+          {"@type": "CollegeOrUniversity", "name": "University of Southern California"}
+        ],
+        "knowsAbout": ["Cosmic microwave background", "Cosmic inflation", "CMB lensing",
+          "Transition-edge sensors", "Microwave SQUID multiplexing", "Quantum sensing"],
         "affiliation": [
           {"@type": "Organization", "name": "SLAC National Accelerator Laboratory",
            "url": "https://faculty.slac.stanford.edu/"},
