@@ -5,9 +5,8 @@ project:
 website:
   title: "Zeeshan Ahmed"
   description: >-
-    Zeeshan Ahmed builds ultra-low-noise superconducting detectors and the readout
-    systems that make them usable at scale, and uses them to study the first instant
-    of the Universe and the growth of cosmic structure.
+    Zeeshan Ahmed, experimental cosmologist at Stanford and SLAC: superconducting
+    detectors, the readout that scales them, and what the CMB says about the Universe.
   site-url: https://zeeshahmed.github.io
   favicon: images/favicon.svg
   navbar:
@@ -38,14 +37,15 @@ website:
             text: Talks and outreach
       - href: about.qmd
         text: About
-  open-graph: true
-  twitter-card: true
   page-footer:
     left: |
       Zeeshan Ahmed · KIPAC, SLAC National Accelerator Laboratory and Stanford University ·
       [zeesh@slac.stanford.edu](mailto:zeesh@slac.stanford.edu)
 
       [Built with [Quarto](https://quarto.org) and [Claude](https://claude.ai).]{.colophon}
+  open-graph: true
+  twitter-card: true
+  image: images/<a-good-wide-image>.jpg
 
 format:
   html:
@@ -56,6 +56,7 @@ format:
     smooth-scroll: false
     include-in-header:
       text: |
+        <meta name="google-site-verification" content="TOPD3RV9q7ZJSPWM_I6yi8WiEX43LqhlxHDurQd6fzM" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
