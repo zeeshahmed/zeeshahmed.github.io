@@ -66,7 +66,7 @@ inflation, and lets it be subtracted.
 ::: {layout-ncol=2}
 ![A prototype detector module for the fourth BICEP Array receiver, to be fielded in Fall 2026.](images/ba4-detector-module.jpg){fig-alt="A gold hexagonal detector module on a bench, its face densely packed with circular feedhorn apertures, with assembly pins and a screwdriver beside it."}
 
-![Time-division multiplexed warm readout electronics, in development in my group.](images/tdm-warm-electronics.jpg){fig-alt="Two mated circuit boards on a bench, one carrying rows of gold-shielded modules and the other a dense array of components, with test leads attached."}
+![Time-division multiplexed warm readout electronics, in development in my group. See [Reese et al., 2023 IEEE NSS MIC RTSD](https://doi.org/10.1109/NSSMICRTSD49126.2023.10338696).](images/tdm-warm-electronics.jpg){fig-alt="Two mated circuit boards on a bench, one carrying rows of gold-shielded modules and the other a dense array of components, with test leads attached."}
 :::
 
 ## Earlier work in this program
