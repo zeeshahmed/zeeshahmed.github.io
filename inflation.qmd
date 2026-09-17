@@ -1,6 +1,6 @@
 ---
 title: "The first instant"
-description-meta: "Searching for primordial gravitational waves in CMB polarization with the South Pole Observatory: BICEP Array and SPT-3G+, targeting sigma(r) = 0.001."
+description-meta: "The South Pole Observatory combines BICEP Array and SPT-3G+ to search CMB polarization for primordial gravitational waves, targeting sigma(r) = 0.001."
 ---
 
 Inflation predicts that the violent expansion of the early Universe left behind a background

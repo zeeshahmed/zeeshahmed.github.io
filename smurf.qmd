@@ -1,6 +1,6 @@
 ---
 title: "SMuRF"
-description-meta: "SLAC Microresonator Radio Frequency electronics: tone-tracking warm readout for microwave SQUID multiplexed superconducting sensors."
+description-meta: "SMuRF, the SLAC Microresonator Radio Frequency electronics: tone-tracking readout for microwave SQUID multiplexing, 98,000 channels at Simons Observatory."
 ---
 
 SMuRF, the SLAC Microresonator Radio Frequency electronics, is the warm readout system for

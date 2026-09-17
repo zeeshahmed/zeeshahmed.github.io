@@ -1,6 +1,6 @@
 ---
 title: "About"
-description-meta: "Biography, current roles, education and contact details for Zeeshan Ahmed."
+description-meta: "How Zeeshan Ahmed went from a CDMS-II dark matter search to searching for inflation, and the roles he holds now at SLAC, Stanford and KIPAC."
 ---
 
 I am an observational cosmologist and experimental physicist. My work spans the whole

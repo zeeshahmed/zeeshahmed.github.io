@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-description-meta: "Selected publications by Zeeshan Ahmed, with links to the complete record on ORCID, Google Scholar, INSPIRE-HEP and NASA ADS."
+description-meta: "Ten selected papers by Zeeshan Ahmed on CMB polarization, microwave SQUID multiplexing and dark matter, with links to ORCID, Scholar, INSPIRE and ADS."
 ---
 
 Ten papers that give a reasonable picture of the work. The complete record is maintained

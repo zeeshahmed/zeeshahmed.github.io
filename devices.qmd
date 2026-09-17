@@ -1,6 +1,6 @@
 ---
 title: "Devices"
-description-meta: "Superconducting device fabrication at SLAC's Detector Microfabrication Facility: nanowire single-photon detectors, high kinetic inductance films, and multiplexer test structures."
+description-meta: "Superconducting device fabrication at SLAC's Detector Microfabrication Facility: nanowire single-photon detectors and high kinetic inductance thin films."
 ---
 
 At a few hundred channels, an instrument is limited by how good its best devices are. At

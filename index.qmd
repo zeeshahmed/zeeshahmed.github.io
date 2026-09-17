@@ -1,7 +1,7 @@
 ---
 title: "Zeeshan Ahmed"
 pagetitle: "Zeeshan Ahmed"
-description-meta: "Observational cosmologist and experimental physicist at SLAC and Stanford, working on superconducting detectors, their readout, and the cosmic microwave background."
+description-meta: "Zeeshan Ahmed, experimental cosmologist at Stanford and SLAC: superconducting detectors, the readout that scales them, and what the CMB says about the Universe."
 include-in-header:
   - text: |
       <script type="application/ld+json">

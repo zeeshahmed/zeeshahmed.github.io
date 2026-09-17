@@ -1,6 +1,6 @@
 ---
 title: "Group"
-description-meta: "Current members, alumni, and how to join Zeeshan Ahmed's group at SLAC and Stanford."
+description-meta: "The graduate students, postdocs and scientists in Zeeshan Ahmed's group at SLAC and Stanford, where its alumni went, and how to join."
 ---
 
 ![In the lab. Front row, left to right: Toby Satterthwaite, Zeeshan Ahmed, Shawn Henderson. Back row, left to right: Rui Shi and Cheng Zhang. (Credit: KIPAC)](images/group.jpg){fig-alt="Five people standing and smiling in front of a laboratory cryostat rack with a sign reading CMB."}

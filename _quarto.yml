@@ -38,6 +38,8 @@ website:
             text: Talks and outreach
       - href: about.qmd
         text: About
+  open-graph: true
+  twitter-card: true
   page-footer:
     left: |
       Zeeshan Ahmed · KIPAC, SLAC National Accelerator Laboratory and Stanford University ·

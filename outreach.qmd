@@ -1,6 +1,6 @@
 ---
 title: "Talks and outreach"
-description-meta: "Recent invited talks, conference presentations, and public lectures by Zeeshan Ahmed."
+description-meta: "Invited talks by Zeeshan Ahmed on the South Pole Observatory, superconducting sensing and dark matter, with his public lectures and outreach work."
 ---
 
 ## Invited talks

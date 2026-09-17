@@ -1,6 +1,6 @@
 ---
 title: "How structure grew"
-description-meta: "CMB lensing, the Sunyaev Zeldovich effects and large-scale structure with the Simons Observatory."
+description-meta: "CMB lensing and the Sunyaev Zeldovich effects trace how cosmic structure grew. Zeeshan Ahmed's group pursues both with the Simons Observatory."
 ---
 
 The same CMB photons that carry the inflationary signal have traveled through all the
