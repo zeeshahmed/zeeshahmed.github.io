@@ -9,12 +9,14 @@ pattern, on the polarization of the cosmic microwave background at degree angula
 Detecting that pattern would be direct evidence of physics at energies far beyond the reach
 of any accelerator.
 
-The signal, if it exists at the level current experiments can reach, is faint enough that
-nothing about the measurement is routine. Three things stand between an instrument and an
-answer: the raw sensitivity of the detector array, the Galactic dust and synchrotron
-emission that shine in polarization along the same line of sight, and the gravitational
-lensing that converts the CMB's own E modes into B modes. The South Pole Observatory is
-built around attacking all three at once.
+The signal, if it exists at the level current experiments can reach, is excruciatingly
+difficult to measure. Contrary to intuition, achieving instrument sensitivity for this faint
+signal is not the hard part; that problem has been solved by the work my group and our
+collaborators have done to scale CMB camera sensor counts. There are three major challenges:
+the Galactic dust and synchrotron emission that shine in polarization along the same line of
+sight, the gravitational lensing that converts the CMB's own E modes into B modes, and
+instrumental systematic effects that can produce spurious signal. The South Pole Observatory
+is built around attacking all three at once.
 
 ## The South Pole Observatory
 
@@ -35,8 +37,10 @@ refinement of the measurement but a requirement of it.
 The site does much of the work. The Antarctic plateau is high, cold and exceptionally dry,
 and a target field near the South Celestial Pole stays above the horizon continuously, so
 one patch of sky can be integrated on for years rather than for the few hours a night a
-mid-latitude site allows. The same patch was chosen for unusually low Galactic foreground
-emission.
+mid-latitude site allows. The atmosphere above it is unusually stable, because at the Pole
+the diurnal cycle is an annual one: the Sun rises and sets once a year, so the daily heating
+and cooling that stirs the atmosphere at every other site does not happen. The same patch
+was chosen for unusually low Galactic foreground emission.
 
 ## Current work
 
@@ -47,9 +51,11 @@ SPT-3G+, leading the microwave SQUID multiplexed readout for a receiver of 24,08
 transition-edge sensors at 90 and 150 GHz, planned for installation in early 2029.
 
 Those two roles are the two halves of the same measurement. The BICEP Array receivers
-supply the deep, degree-scale polarization data in which a primordial signal would appear.
-SPT-3G+ supplies the high-resolution lensing measurement that says how much of the observed
-B-mode power is lensing rather than inflation, and lets it be subtracted.
+supply the deep, degree-scale polarization data in which a primordial signal would appear,
+and, by observing the same field in several frequency bands, the leverage to separate
+Galactic dust and synchrotron emission from it. SPT-3G+ supplies the high-resolution
+lensing measurement that says how much of the observed B-mode power is lensing rather than
+inflation, and lets it be subtracted.
 
 ::: {layout-ncol=2}
 ![Installing the BICEP Array calibration mirror at the South Pole.](images/bicep-array-calibration-mirror.jpg){fig-alt="Two people on scaffolding beside the four cylindrical BICEP Array receivers, mounted in a blue-skirted ground shield on the Antarctic plateau."}
@@ -57,12 +63,7 @@ B-mode power is lensing rather than inflation, and lets it be subtracted.
 ![Brianna Cantrall, center, with Harvard and Boston University collaborators, integrating the fourth BICEP Array receiver.](images/ba4-integration.jpg){fig-alt="Five people standing beside a tall cylindrical cryostat in a laboratory high bay."}
 :::
 
-![A prototype detector module for the fourth BICEP Array receiver.](images/ba4-detector-module.jpg){fig-alt="A gold hexagonal detector module on a bench, its face densely packed with circular feedhorn apertures, with assembly pins and a screwdriver beside it."}
-
-The detector modules that go into the fourth receiver are the ones described on the
-[devices page](devices.qmd), and the readout that reads them out at scale is the
-[SMuRF platform](smurf.qmd). This program is the reason both of those exist in the form
-they do.
+![A prototype detector module for the fourth BICEP Array receiver, to be fielded in Fall 2026.](images/ba4-detector-module.jpg){fig-alt="A gold hexagonal detector module on a bench, its face densely packed with circular feedhorn apertures, with assembly pins and a screwdriver beside it."}
 
 ## Earlier work in this program
 
