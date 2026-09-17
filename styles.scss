@@ -235,17 +235,28 @@ figcaption {
   margin-bottom: 2.3rem;
 }
 
-.portrait-row > p {
+.portrait-row > .portrait {
   display: flex;
+  flex-direction: column;
   flex: 0 0 auto;
-  margin: 0;
+}
+
+.portrait-row .portrait p { margin: 0; display: flex; }
+
+.portrait-row .portrait > p:first-child { flex: 1 1 auto; }
+
+.portrait-row .credit {
+  font-size: 0.72rem;
+  line-height: 1.35;
+  color: var(--zx-muted);
+  margin-top: 0.4rem;
+  display: block;
 }
 
 .portrait-row img {
   width: 178px;
-  height: auto;
+  height: 100%;
   min-height: 178px;
-  align-self: stretch;
   object-fit: cover;
   object-position: 50% 26%;
   border-radius: 2px;

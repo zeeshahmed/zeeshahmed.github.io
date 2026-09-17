@@ -32,7 +32,7 @@ is where a six-meter dish comes in handy. It also has to cover a wide enough are
 sufficient statistical sampling, which sets the scale of the camera and, in turn, of its
 readout.
 
-![The Large Aperture Telescope receiver open during the Advanced Simons Observatory camera upgrade.](images/lat-receiver-optics-tubes.jpg){fig-alt="A large cylindrical cryostat opened to show a ring of foil-wrapped optics tubes, with three people working at its rim."}
+![Mark Devlin, principal investigator of the Advanced Simons Observatory, installing an optics tube in the Large Aperture Telescope receiver.](images/lat-receiver-optics-tubes.jpg){fig-alt="A large cylindrical cryostat opened to show a ring of foil-wrapped optics tubes, with people working at its rim."}
 
 ![Zeeshan Ahmed connecting SMuRF cables on the Large Aperture Telescope Receiver.](images/so-lat-receiver.jpg){fig-alt="A person on a step ladder working at the side of a large cylindrical cryostat in a telescope enclosure."}
 

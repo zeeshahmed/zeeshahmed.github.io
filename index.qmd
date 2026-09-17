@@ -10,7 +10,12 @@ Laboratory and Stanford University
 :::
 
 ::: {.portrait-row}
+::: {.portrait}
 ![](images/portrait.jpg){alt="Zeeshan Ahmed"}
+
+[Portrait by Lori White]{.credit}
+:::
+
 
 ::: {.standfirst}
 I build ultra-low-noise superconducting detectors and the readout systems that make them

@@ -81,4 +81,4 @@ assurance, work that produced the BK18 dataset and its constraint r(0.05) < 0.03
 confidence. I also supervised the first published constraints on ultralight axionlike fuzzy
 dark matter derived from polarization oscillations in BICEP/Keck data.
 
-![Signal and noise in BICEP/Keck temperature and polarization maps at 95 GHz. The polarization maps are the measurement that matters: the primordial B-mode signal, if present, is far fainter still.](images/bicep-maps.png){fig-alt="Six sky maps arranged in two columns showing temperature, Q and U polarization signal and noise for a patch of southern sky."}
+![Signal and noise in BICEP/Keck temperature and polarization maps at 95 GHz. The polarization maps are the measurement that matters: the primordial B-mode signal, if present, is far fainter still. From the BK18 analysis, [BICEP/Keck Collaboration, *Physical Review Letters* **127**, 151301 (2021)](https://doi.org/10.1103/PhysRevLett.127.151301).](images/bicep-maps.png){fig-alt="Six sky maps arranged in two columns showing temperature, Q and U polarization signal and noise for a patch of southern sky."}
