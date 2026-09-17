@@ -2,6 +2,39 @@
 title: "Zeeshan Ahmed"
 pagetitle: "Zeeshan Ahmed"
 description-meta: "Observational cosmologist and experimental physicist at SLAC and Stanford, working on superconducting detectors, their readout, and the cosmic microwave background."
+include-in-header:
+  - text: |
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Zeeshan Ahmed",
+        "givenName": "Zeeshan",
+        "familyName": "Ahmed",
+        "jobTitle": "Associate Professor of Particle Physics and Astrophysics",
+        "url": "https://zeeshahmed.github.io/",
+        "image": "https://zeeshahmed.github.io/images/portrait.jpg",
+        "email": "mailto:zeesh@slac.stanford.edu",
+        "affiliation": [
+          {"@type": "Organization", "name": "SLAC National Accelerator Laboratory",
+           "url": "https://faculty.slac.stanford.edu/"},
+          {"@type": "Organization", "name": "Kavli Institute for Particle Astrophysics and Cosmology",
+           "url": "https://kipac.stanford.edu/"},
+          {"@type": "Organization", "name": "Stanford University",
+           "url": "https://www.stanford.edu/"}
+        ],
+        "sameAs": [
+          "https://faculty.slac.stanford.edu/person/zeeshan-ahmed",
+          "https://kipac.stanford.edu/people/zeeshan-ahmed",
+          "https://profiles.stanford.edu/zeeshan-ahmed",
+          "https://orcid.org/0000-0002-9957-448X",
+          "https://scholar.google.com/citations?user=hXDuulsAAAAJ",
+          "https://inspirehep.net/authors/1054828",
+          "https://www.linkedin.com/in/zeahmed",
+          "https://github.com/zeeshahmed"
+        ]
+      }
+      </script>
 ---
 
 ::: {.hero-role}
