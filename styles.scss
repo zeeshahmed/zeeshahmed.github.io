@@ -655,3 +655,6 @@ figure img,
 @media (max-width: 575px) {
   .marks img { height: 78px; }
 }
+
+/* Affiliation line under the role on the home page. */
+.hero-role .affil { color: var(--zx-muted); }

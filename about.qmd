@@ -63,7 +63,7 @@ detector readout on CMB-S4.
 
 ## Contact
 
-![The Kavli Building at SLAC. (Credit: SLAC Communications)](images/kavli-building.jpg){fig-alt="A modern three-story building with large windows, surrounded by redwoods and lawn at dusk."}
+![The Kavli Building at SLAC, which houses KIPAC. (Credit: SLAC Communications)](images/kavli-building.jpg){fig-alt="A modern three-story building with large windows, surrounded by redwoods and lawn at dusk."}
 
 2575 Sand Hill Road, Menlo Park, CA 94025
 

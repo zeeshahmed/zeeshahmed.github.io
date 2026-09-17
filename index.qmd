@@ -5,8 +5,9 @@ description-meta: "Observational cosmologist and experimental physicist at SLAC 
 ---
 
 ::: {.hero-role}
-Associate Professor of Particle Physics and Astrophysics, SLAC National Accelerator
-Laboratory and Stanford University
+Associate Professor of Particle Physics and Astrophysics  
+[Kavli Institute for Particle Astrophysics and Cosmology, Stanford University and SLAC
+National Accelerator Laboratory]{.affil}
 :::
 
 ::: {.portrait-row}
